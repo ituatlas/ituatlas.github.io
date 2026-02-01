@@ -1,0 +1,1256 @@
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --primary: #3CBDB7;
+      --primary-hover: #2d8f8a;
+      --primary-light: #2d8f8a;
+      --secondary: #ef4444;
+      --success: #10b981;
+      --warning: #f59e0b;
+      --bg-color: #f9fafb;
+      --bg: #f9fafb;
+      --card-bg: #ffffff;
+      --text-main: #111827;
+      --text: #111827;
+      --text-muted: #6b7280;
+      --border-color: #e5e7eb;
+      --border: #e5e7eb;
+      --shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 90%;
+      margin: 0 auto;
+      padding: 12px;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px 0;
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-hover) 100%);
+      color: white;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      box-shadow: var(--shadow);
+    }
+
+    header h1 {
+      font-size: 1.8rem;
+      margin-bottom: 8px;
+    }
+
+    header p {
+      opacity: 0.9;
+      font-size: 0.95rem;
+    }
+
+    .input-section {
+      background: var(--card-bg);
+      padding: 16px;
+      border-radius: 12px;
+      box-shadow: var(--shadow);
+      margin-bottom: 20px;
+    }
+
+    .input-row {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      align-items: flex-end;
+    }
+
+    .input-group {
+      flex: 1;
+      min-width: 150px;
+    }
+
+    .input-group label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 600;
+      color: var(--text);
+      font-size: 0.9rem;
+    }
+
+    .input-group input,
+    .input-group select {
+      width: 100%;
+      padding: 12px 14px;
+      border: 2px solid var(--border);
+      border-radius: 8px;
+      font-size: 1rem;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+
+    .input-group input:focus,
+    .input-group select:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(60, 189, 183, 0.1);
+    }
+
+    .btn {
+      padding: 12px 28px;
+      background: var(--primary);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.1s;
+    }
+
+    .btn:hover {
+      background: var(--primary-hover);
+    }
+
+    .btn:active {
+      transform: scale(0.98);
+    }
+
+    .search-box {
+      margin-bottom: 20px;
+    }
+
+    .search-box input {
+      width: 100%;
+      padding: 14px 18px;
+      border: 2px solid var(--border);
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+
+    .search-box input:focus {
+      outline: none;
+      border-color: var(--primary);
+    }
+
+    .results-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      padding: 12px 16px;
+      background: var(--card-bg);
+      border-radius: 8px;
+      font-size: 0.9rem;
+    }
+
+    .results-info .count {
+      font-weight: 600;
+      color: var(--primary);
+    }
+
+    /* Results Container and Table Styles */
+    #results-container {
+      width: 100%;
+      overflow-x: auto;
+      background: var(--card-bg);
+      border-radius: 12px;
+      box-shadow: var(--shadow);
+    }
+
+    .programs-table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 700px;
+    }
+
+    .programs-table th {
+      text-align: left;
+      padding: 6px 8px;
+      background: var(--bg-color);
+      color: var(--text-muted);
+      font-weight: 600;
+      font-size: 0.8rem;
+      border-bottom: 2px solid var(--border-color);
+      vertical-align: top;
+    }
+
+    .programs-table th.col-stat,
+    .programs-table th.col-gno,
+    .programs-table th.col-yil {
+      text-align: center;
+    }
+
+    .programs-table td {
+      padding: 6px 10px;
+      border-bottom: 1px solid var(--border-color);
+      vertical-align: middle;
+      font-size: 0.85rem;
+    }
+
+    .programs-table tbody tr:hover {
+      background: var(--bg-color);
+    }
+
+    .programs-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    .col-program {
+      width: 22%;
+      min-width: 180px;
+      vertical-align: top;
+    }
+
+    .col-yil {
+      width: 8%;
+      min-width: 90px;
+      font-weight: 600;
+      color: var(--text-main);
+      vertical-align: middle;
+      text-align: center;
+      border-right: 1px solid var(--border-color);
+    }
+
+    .col-yariyil {
+      width: 10%;
+      min-width: 90px;
+      font-weight: 500;
+      color: var(--text-main);
+      position: relative;
+      white-space: nowrap;
+    }
+
+    .yariyil-filter {
+      margin-left: 6px;
+      padding: 2px 4px;
+      border: 1px solid var(--border-color);
+      border-radius: 4px;
+      font-size: 0.7rem;
+      background: white;
+      color: var(--text-main);
+      cursor: pointer;
+      display: inline-block;
+      width: auto;
+      min-width: auto;
+    }
+
+    .yariyil-filter:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 2px rgba(60, 189, 183, 0.1);
+    }
+
+    .col-stat {
+      width: 7.5%;
+      text-align: center;
+      font-weight: 600;
+      font-size: 0.8rem;
+    }
+
+    .col-gno {
+      width: 9%;
+      text-align: center;
+      font-weight: 600;
+      font-size: 0.8rem;
+    }
+
+    .no-data-cell {
+      text-align: center;
+      color: var(--text-muted);
+      font-style: italic;
+      font-size: 0.85rem;
+    }
+
+    .program-cell-title {
+      font-weight: 600;
+      font-size: 0.95rem;
+      color: var(--text);
+      margin-bottom: 3px;
+      display: block;
+    }
+
+    .program-cell-faculty {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    .osym-badge {
+      display: inline-block;
+      padding: 3px 6px;
+      background: #4b5563;
+      color: white;
+      border-radius: 3px;
+      font-size: 0.7rem;
+      font-weight: 600;
+    }
+
+    .osym-badge.warning {
+      background: var(--warning);
+    }
+
+    /* GNO Cell Styling */
+    .gno-success {
+      color: var(--success);
+    }
+
+    .gno-warning {
+      color: var(--warning);
+    }
+
+    .gno-error {
+      color: var(--secondary);
+    }
+
+    .gno-info {
+      color: var(--primary);
+    }
+
+
+    @media (max-width: 900px) {
+
+      .programs-table,
+      .programs-table tbody {
+        display: block;
+        width: 100%;
+        min-width: 0;
+      }
+
+      .programs-table thead {
+        display: none;
+      }
+
+      /* Satırı Flex Container yap */
+      .programs-table tr {
+        display: flex;
+        flex-wrap: wrap;
+        background: #fff;
+        margin-bottom: 10px;
+        border: 1px solid var(--border-color);
+        border-radius: 8px;
+        padding: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+      }
+
+      /* Tüm hücreler için temel stil */
+      .programs-table td {
+        padding: 4px 0;
+        border: none;
+        position: relative;
+        text-align: left;
+        box-sizing: border-box;
+      }
+
+      /* Bölüm ve Dönem tam genişlik */
+      .programs-table .col-program,
+      .programs-table .col-yariyil {
+        width: 100%;
+      }
+
+      .programs-table .col-yil {
+        display: none;
+      }
+
+      .col-program {
+        border-bottom: 2px solid var(--border-color) !important;
+        padding-bottom: 8px !important;
+        margin-bottom: 6px;
+      }
+
+      .program-cell-title {
+        font-size: 1rem;
+        margin-bottom: 4px;
+      }
+
+      .col-yariyil {
+        font-weight: 700;
+        font-size: 0;
+        margin-bottom: 4px;
+        color: transparent;
+        display: block;
+        overflow: hidden;
+        line-height: 0;
+        /* İçeriği tamamen gizle, sadece ::before görünsün */
+      }
+
+      .col-yariyil::before {
+        content: attr(data-yil) " - " attr(data-yariyil-text);
+        font-size: 0.9rem;
+        font-weight: 700;
+        color: var(--text-main);
+        display: block;
+        width: 100%;
+        border-bottom: 1px solid var(--border-color);
+        padding-bottom: 4px;
+        margin-bottom: 4px;
+        line-height: 1.2;
+      }
+
+      .col-yariyil[data-label="Dönem"]::before {
+        /* data-label zaten içerikte varsa tekrar etmesin diye özel kontrol gerekebilir ama 
+            biz script.js'de data-label'ı "3.Yarıyıl" gibi net vereceğiz. 
+            Burada content'i override ediyoruz.
+         */
+        content: attr(data-yil) " - " attr(data-yariyil-text);
+      }
+
+      /* Veri hücrelerini grid yapısında göster (3x2 grid, istenen sıra ile) */
+      .programs-table .col-stat,
+      .programs-table .col-gno {
+        display: inline-flex;
+        flex-direction: column;
+        width: 32.66%;
+        /* 3 sütun */
+        margin-right: 1%;
+        margin-bottom: 4px;
+        background: #f8fafc;
+        padding: 4px 2px;
+        border-radius: 6px;
+        text-align: center;
+        border: 1px solid #eee;
+        vertical-align: top;
+      }
+
+      /* Order ile sıralamayı değiştir: 
+         Sol: Kont, Yer
+         Orta: Taban, Tavan
+         Sağ: Min, Max
+      */
+
+      /* İlk satır elementleri (Üst) */
+      .programs-table td[data-label="Kont"] {
+        order: 10;
+      }
+
+      .programs-table td[data-label="Taban"] {
+        order: 11;
+      }
+
+      .programs-table td[data-label="Min GNO"] {
+        order: 12;
+        margin-right: 0 !important;
+      }
+
+      /* İkinci satır elementleri (Alt) */
+      .programs-table td[data-label="Yer"] {
+        order: 20;
+      }
+
+      .programs-table td[data-label="Tavan"] {
+        order: 21;
+      }
+
+      .programs-table td[data-label="Max GNO"] {
+        order: 22;
+        margin-right: 0 !important;
+      }
+
+      /* Başlıklar en üstte */
+      .programs-table .col-program {
+        order: -1;
+        width: 100%;
+        margin-right: 0;
+      }
+
+      .programs-table .col-yariyil {
+        order: 0;
+        width: 100%;
+        margin-right: 0;
+      }
+
+      /* Yerleşen yok hücresi */
+      .programs-table .no-data-cell {
+        order: 30;
+      }
+
+      .col-stat::before,
+      .col-gno::before {
+        content: attr(data-label);
+        display: block;
+        font-weight: 600;
+        color: var(--text-muted);
+        font-size: 0.7rem;
+        margin-bottom: 2px;
+        margin-right: 0;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+      }
+
+      /* Yerleşen yok mesajı için */
+      .programs-table .no-data-cell {
+        width: 100%;
+        text-align: center;
+        padding: 12px 0;
+        background: #f9fafb;
+        border-radius: 4px;
+        margin-top: 8px;
+      }
+
+      .yariyil-filter {
+        max-width: 120px;
+      }
+    }
+
+    .no-data {
+      color: var(--text-muted);
+      font-style: italic;
+      font-size: 0.9rem;
+    }
+
+    .loading {
+      text-align: center;
+      padding: 40px;
+      color: var(--text-muted);
+    }
+
+    .error-message {
+      text-align: center;
+      padding: 40px;
+      color: var(--secondary);
+      background: #fef2f2;
+      border-radius: 12px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+
+    footer a {
+      color: var(--primary);
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 12px;
+      }
+
+      header {
+        padding: 20px;
+        border-radius: 8px;
+      }
+
+      header h1 {
+        font-size: 1.4rem;
+        padding: 0 35px;
+        /* Ok ile çakışmaması için yanlardan boşluk */
+      }
+
+      .input-row {
+        flex-direction: column;
+      }
+
+      .input-group {
+        width: 100%;
+      }
+
+      .btn {
+        width: 100%;
+      }
+
+      .program-header {
+        padding: 14px 16px;
+      }
+
+      .program-content {
+        padding: 14px;
+      }
+    }
+
+    /* Header Navigasyon */
+    .header-nav {
+      margin-top: 15px;
+      font-size: 0.9rem;
+    }
+
+    .header-nav a {
+      color: white;
+      text-decoration: underline;
+      cursor: pointer;
+      opacity: 0.9;
+    }
+
+    .header-nav a:hover {
+      opacity: 1;
+    }
+
+    .separator {
+      margin: 0 8px;
+      color: rgba(255, 255, 255, 0.6);
+    }
+
+    /* Modal Stilleri */
+    .modal {
+      display: none;
+      /* Varsayılan olarak gizli */
+      position: fixed;
+      z-index: 1000;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      /* Siyah yarı saydam arka plan */
+      backdrop-filter: blur(4px);
+      /* Arka planı bulanıklaştır */
+    }
+
+    .modal-content {
+      background-color: #fff;
+      margin: 5% auto;
+      /* Adjusted margin */
+      padding: 0;
+      border-radius: 12px;
+      width: 90%;
+      max-width: 850px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      animation: slideIn 0.3s ease-out;
+      /* Fix for long content */
+      display: flex;
+      flex-direction: column;
+      max-height: 90vh;
+      /* Maximum height relative to viewport */
+    }
+
+    .modal-header {
+      background: var(--primary);
+      padding: 15px 20px;
+      border-radius: 12px 12px 0 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .modal-content h2 {
+      color: white;
+      font-size: 1.4rem;
+      margin: 0;
+      padding: 0;
+      background: none;
+    }
+
+    .modal-body {
+      padding: 25px;
+      color: var(--text);
+      /* Enable scrolling */
+      overflow-y: auto;
+    }
+
+    .close-btn {
+      color: white;
+      font-size: 28px;
+      font-weight: bold;
+      cursor: pointer;
+      opacity: 0.8;
+      line-height: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 4px;
+      /* Tıklama alanını biraz genişletmek için */
+    }
+
+    .close-btn:hover {
+      opacity: 1;
+    }
+
+    .formula-box {
+      background: #f3f4f6;
+      padding: 20px 15px;
+      border-radius: 8px;
+      margin: 15px 0;
+      border: 1px solid #e5e7eb;
+      overflow-x: auto;
+    }
+
+    .formula {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .formula-label {
+      font-weight: 600;
+      color: var(--text);
+      font-size: 0.95rem;
+      margin-bottom: 5px;
+    }
+
+    .formula-expression {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .formula-part {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    .fraction {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .fraction .numerator {
+      padding: 4px 8px;
+      font-style: italic;
+      color: var(--text);
+      font-size: 0.85rem;
+    }
+
+    .fraction .denominator {
+      padding: 4px 8px;
+      border-top: 2px solid #374151;
+      font-style: italic;
+      color: var(--text);
+      font-size: 0.85rem;
+    }
+
+    .paren {
+      font-size: 2.2rem;
+      font-weight: 300;
+      color: #374151;
+      line-height: 1;
+    }
+
+    .multiply {
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--primary-hover);
+      margin-left: 4px;
+    }
+
+    .operator {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #374151;
+      margin: 0 8px;
+    }
+
+    @media (max-width: 500px) {
+      .formula-expression {
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .operator {
+        margin: 4px 0;
+      }
+
+      .paren {
+        font-size: 1.8rem;
+      }
+
+      .fraction .numerator,
+      .fraction .denominator {
+        font-size: 0.8rem;
+      }
+    }
+
+    .contact-box {
+      margin-top: 15px;
+      padding: 15px;
+      background: #f9fafb;
+      border-radius: 8px;
+    }
+
+    .note {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-top: 20px;
+      font-style: italic;
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateY(-50px);
+        opacity: 0;
+      }
+
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    /* ==================== LANDING PAGE ==================== */
+
+    .landing-container {
+      max-width: 950px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .landing-header {
+      text-align: center;
+      padding: 40px 20px;
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-hover) 100%);
+      color: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(60, 189, 183, 0.3);
+      margin-bottom: 40px;
+    }
+
+    .landing-header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 12px;
+      font-weight: 800;
+      letter-spacing: -1px;
+    }
+
+    .landing-header p {
+      font-size: 1.15rem;
+      opacity: 0.95;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 24px;
+      flex: 0;
+    }
+
+    .landing-card {
+      background: var(--card-bg);
+      border-radius: 16px;
+      padding: 40px 30px;
+      text-decoration: none;
+      color: var(--text);
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+      transition: transform 0.2s, box-shadow 0.2s;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      border: 2px solid transparent;
+      min-height: 190px;
+    }
+
+    .landing-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+      border-color: var(--primary);
+    }
+
+    .landing-card .card-icon {
+      width: 80px;
+      height: 80px;
+      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-hover) 100%);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      color: white;
+    }
+
+    .landing-card h2 {
+      font-size: 1.4rem;
+      margin-bottom: 12px;
+      color: var(--text);
+    }
+
+    .landing-card p {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+      line-height: 1.6;
+    }
+
+    .landing-footer {
+      text-align: center;
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+
+    .landing-footer .contact {
+      margin-top: 8px;
+    }
+
+    .landing-footer a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    .landing-footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Home link in header */
+    .home-link {
+      position: absolute;
+      left: 15px;
+      top: 15px;
+      color: white;
+      text-decoration: none;
+      font-size: 1.6rem;
+      /* Biraz daha büyütelim */
+      opacity: 0.9;
+      transition: opacity 0.2s, transform 0.2s;
+      z-index: 10;
+      line-height: 1;
+    }
+
+    .home-link:hover {
+      opacity: 1;
+      transform: scale(1.1);
+    }
+
+    header {
+      position: relative;
+    }
+
+    /* ==================== CAP PAGE ==================== */
+
+    .fakulte-group {
+      margin-bottom: 32px;
+    }
+
+    .fakulte-baslik {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--primary-hover);
+      padding: 12px 16px;
+      background: linear-gradient(90deg, rgba(60, 189, 183, 0.1), transparent);
+      border-left: 4px solid var(--primary);
+      margin-bottom: 12px;
+      border-radius: 0 8px 8px 0;
+    }
+
+    .program-header-row {
+      background: #fafafa;
+    }
+
+    .program-cell {
+      background: white;
+      font-weight: 500;
+      vertical-align: top;
+      padding-top: 12px !important;
+    }
+
+    .program-name {
+      font-size: 0.9rem;
+      color: var(--text);
+    }
+
+    .gno-high {
+      color: var(--secondary);
+      font-weight: 600;
+    }
+
+    .gno-medium {
+      color: var(--warning);
+      font-weight: 600;
+    }
+
+    .gno-low {
+      color: var(--success);
+      font-weight: 600;
+    }
+
+    .gno-neutral {
+      color: var(--text-muted);
+    }
+
+    .aciklama-icon {
+      color: var(--warning);
+      font-weight: bold;
+      cursor: help;
+    }
+
+    .no-results {
+      text-align: center;
+      padding: 40px;
+      color: var(--text-muted);
+      font-size: 1rem;
+    }
+
+    .error {
+      text-align: center;
+      padding: 40px;
+      color: var(--secondary);
+      font-size: 1rem;
+    }
+
+    /* Moblile Header Row (Desktop: Hidden) */
+    .mobile-program-header {
+      display: none;
+    }
+
+    /* Responsive landing page */
+    @media (max-width: 600px) {
+      .landing-header h1 {
+        font-size: 1.8rem;
+      }
+
+      .landing-header p {
+        font-size: 1rem;
+      }
+
+      .landing-card {
+        padding: 24px 20px;
+      }
+
+      .landing-card .card-icon {
+        width: 64px;
+        height: 64px;
+      }
+
+      .landing-card .card-icon svg {
+        width: 32px;
+        height: 32px;
+      }
+    }
+
+    /* ==================== CAP PAGE MOBILE OPTIMIZATION ==================== */
+    @media (max-width: 900px) {
+
+      .cap-page .programs-table,
+      .cap-page .programs-table tbody {
+        display: block;
+        width: 100%;
+      }
+
+      .cap-page .programs-table thead {
+        display: none;
+      }
+
+      /* Kart Tasarımı -> Liste Tasarımı */
+      .cap-page .programs-table tr {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 6px;
+        background: #fff;
+        margin-bottom: 0px;
+        /* Aradaki büyük boşluğu kaldır */
+        border: none;
+        /* Çerçeveyi kaldır */
+        border-bottom: 1px solid var(--border-color);
+        /* Sadece alt çizgi */
+        border-radius: 0;
+        /* Köşe yuvarlamayı kaldır */
+        padding: 8px 12px;
+        /* Dikey paddingi azalt, yatayı başlıkla eşitle */
+        box-shadow: none;
+        /* Gölgeyi kaldır */
+        position: relative;
+      }
+
+      /* 1. KART BAŞLIĞI: Bölüm Adı - ARTIK mobile-program-header KULLANILIYOR */
+      .cap-page .programs-table tr::before {
+        display: none;
+      }
+
+      /* YENİ: Grup Başlığı Stili */
+      .cap-page .programs-table tr.mobile-program-header {
+        display: block;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        padding: 0;
+        margin-bottom: 0px;
+        margin-top: 16px;
+      }
+
+      /* İlk grup başlığının üst boşluğunu al */
+      .cap-page .programs-table tbody:first-child tr.mobile-program-header {
+        margin-top: 0;
+      }
+
+      .cap-page .programs-table tr.mobile-program-header td {
+        display: block;
+        width: 100%;
+        color: var(--primary);
+        font-size: 1.2rem;
+        font-weight: 700;
+        padding: 4px 12px 8px 12px;
+        /* Yatay padding eklendi */
+        text-align: left;
+        border: none;
+        background: transparent;
+      }
+
+      /* 2. ÜST BAŞLIK: Dönem Bilgisi - ARTIK GEREK YOK (Yarıyıl hücresi içinde) */
+      .cap-page .programs-table tr::after {
+        display: none;
+      }
+
+      /* Mevcut hücrelerin masaüstü düzenindeki görünümlerini sıfırla */
+      .cap-page .programs-table td {
+        display: block;
+        width: 100%;
+        padding: 4px 0;
+        border: none;
+        text-align: left;
+      }
+
+      /* Rowspan'lı başlık hücrelerini (Program adı ve Yıl) gizle */
+      .cap-page .programs-table td[rowspan] {
+        display: none !important;
+      }
+
+      /* 1. Hücre: Yıl ve Yarıyıl (Tam genişlik) */
+      .cap-page .programs-table .cell-yariyil {
+        grid-column: 1 / -1;
+        border-bottom: none;
+        padding-bottom: 4px;
+        margin-bottom: 4px;
+        font-weight: 500;
+        color: var(--text-muted);
+        order: 0;
+        font-size: 0;
+        /* Orijinal metni gizle */
+      }
+
+      .cap-page .programs-table .cell-yariyil::before {
+        content: attr(data-mobil-text);
+        /* Birleştirilmiş metni göster */
+        font-size: 0.95rem;
+        display: block;
+      }
+
+      /* VERİ SÜTUNLARI - YAN YANA (Tek Satır) */
+
+      /* Tüm veri hücreleri için ortak stil */
+      .cap-page .programs-table .cell-kontenjan,
+      .cap-page .programs-table .cell-yerlesen,
+      .cap-page .programs-table .cell-taban,
+      .cap-page .programs-table .cell-tavan {
+        background: #f8fafc;
+        border-radius: 6px;
+        padding: 4px 2px;
+        /* Dikey paddingi azalt */
+        text-align: center;
+        /* Grid Column ayarı yok, otomatik akacaklar */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 45px;
+        /* Yüksekliği kısalt */
+      }
+
+      /* Grid düzeninde 4 sütun olmalı, bu yüzden tr'nin grid tanımını da değiştireceğiz */
+      .cap-page .programs-table tr {
+        grid-template-columns: repeat(4, 1fr) !important;
+        /* 4 Eşit sütun */
+      }
+
+      /* Sıralama (Hepsi aynı sırada, Yarıyıldan sonra) */
+      .cap-page .programs-table .cell-kontenjan {
+        order: 1;
+      }
+
+      .cap-page .programs-table .cell-yerlesen {
+        order: 2;
+      }
+
+      .cap-page .programs-table .cell-taban {
+        order: 3;
+      }
+
+      .cap-page .programs-table .cell-tavan {
+        order: 4;
+      }
+
+      /* Etiketler (Başlıklar) - Küçük ve üstte */
+      .cap-page .programs-table .cell-kontenjan::before {
+        content: "Kont.";
+        font-size: 0.65rem;
+        color: var(--text-muted);
+        margin-bottom: 2px;
+        font-weight: 600;
+      }
+
+      .cap-page .programs-table .cell-yerlesen::before {
+        content: "Yerl.";
+        font-size: 0.65rem;
+        color: var(--text-muted);
+        margin-bottom: 2px;
+        font-weight: 600;
+      }
+
+      .cap-page .programs-table .cell-taban::before {
+        content: "Taban";
+        font-size: 0.65rem;
+        color: var(--text-muted);
+        margin-bottom: 2px;
+        font-weight: 600;
+      }
+
+      .cap-page .programs-table .cell-tavan::before {
+        content: "Tavan";
+        font-size: 0.65rem;
+        color: var(--text-muted);
+        margin-bottom: 2px;
+        font-weight: 600;
+      }
+
+      /* Değerlerin font boyutu */
+      .cap-page .programs-table .cell-kontenjan,
+      .cap-page .programs-table .cell-yerlesen,
+      .cap-page .programs-table .cell-taban,
+      .cap-page .programs-table .cell-tavan {
+        font-size: 0.9rem;
+        font-weight: 600;
+      }
+    }
+
+    /* Tooltip content wrapper */
+    .stat-content {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      justify-content: center;
+    }
+
+    /* Custom Tooltip Style */
+    .custom-tooltip {
+      position: absolute;
+      background-color: #333;
+      color: #fff;
+      padding: 6px 10px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      z-index: 10000;
+      max-width: 250px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      animation: fadeIn 0.2s;
+      line-height: 1.4;
+      pointer-events: auto;
+      /* Kullanıcı tooltip'e de tıklayabilsin (kapatmak için vs) */
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-5px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }

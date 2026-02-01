@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>İTÜ Yatay Geçiş AGNO Hesaplayıcı | İTÜ Atlas</title>
+  <meta name="description" content="İTÜ Yatay Geçiş (Kurum İçi) AGNO hesaplama aracı ve geçmiş yılların taban puanları.">
+  <meta name="keywords" content="itüatlas, itü yatay geçiş, itü yatay geçiş taban puanları, itü yatay geçiş sonuçları, itü yatay geçiş puanları, itü yatay geçiş geçmiş seneler, itü yatay geçiş ortalama hesaplama, itü agno hesaplama, kurum içi yatay geçiş, yatay geçiş hesaplama robotu">
+  <link rel="stylesheet" href="../shared/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <a href="../" class="home-link">←</a>
+      <div class="header-content">
+        <h1>İTÜ Yatay Geçiş AGNO Hesaplayıcı</h1>
+        <p>YKS puanınıza göre gereken AGNO'yu hesaplayın</p>
+      </div>
+      <nav class="header-nav">
+        <a href="#" onclick="openModal('infoModal'); return false;">Nasıl Çalışır?</a>
+        <span class="separator">|</span>
+        <a href="#" onclick="openModal('contactModal'); return false;">İletişim</a>
+      </nav>
+    </header>
+
+    <div class="input-section">
+      <div class="input-row">
+        <div class="input-group">
+          <label for="yksPuan">YKS Puanınız</label>
+          <input type="number" id="yksPuan" placeholder="Örn: 450" min="0" max="600" step="0.001">
+        </div>
+        <div class="input-group">
+          <label for="yksYil">YKS Yılı</label>
+          <select id="yksYil">
+            <option value="2025">2025</option>
+            <option value="2024">2024</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+          </select>
+        </div>
+        <button class="btn" onclick="hesapla()">Hesapla</button>
+      </div>
+    </div>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Program ara..." oninput="filterPrograms()">
+    </div>
+
+    <div id="results-container">
+      <div class="loading">Veriler yükleniyor...</div>
+    </div>
+
+    <footer>
+      <p>Veriler İTÜ ve ÖSYM kaynaklarından derlenmiştir. Detaylı bilgi için <a
+          href="https://www.sis.itu.edu.tr/TR/ogrenci/lisans/cap-yandal-yatay-gecis/cap-yandal-yatay-gecis.php"
+          target="_blank">tıklayınız.</a></p>
+      <p>Son güncelleme: <span id="footerDate">-</span></p>
+    </footer>
+  </div>
+
+  <!-- Nasıl Çalışır Modalı -->
+  <div id="infoModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Nasıl Çalışır?</h2>
+        <span class="close-btn" onclick="closeModal('infoModal')">&times;</span>
+      </div>
+      <div class="modal-body">
+        <p>İTÜ Kurumiçi Yatay Geçiş puanı şu formülle hesaplanır:</p>
+        <div class="formula-box">
+          <div class="formula">
+            <span class="formula-label">Değerlendirme Puanı:</span>
+            <div class="formula-expression">
+              <div class="formula-part">
+                <span class="paren">(</span>
+                <div class="fraction">
+                  <span class="numerator">Adayın ÖSYS Puanı</span>
+                  <span class="denominator">Adayın geçmek istediği programın<br>sınava girdiği yıldaki taban
+                    puanı</span>
+                </div>
+                <span class="multiply">× 0.40</span>
+                <span class="paren">)</span>
+              </div>
+              <span class="operator">+</span>
+              <div class="formula-part">
+                <span class="paren">(</span>
+                <div class="fraction">
+                  <span class="numerator">Adayın yüzlük birimdeki<br>üniversite AGNO'su</span>
+                  <span class="denominator">100</span>
+                </div>
+                <span class="multiply">× 0.60</span>
+                <span class="paren">)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <h3>Bu Araç Ne İşe Yarar?</h3>
+        <p>Bu araç, hedeflediğiniz bölümün geçmiş yıllardaki yatay geçiş taban ve tavan değerlendirme puanlarını
+          görmenizi sağlar. Ayrıca bu puan aralığına ulaşabilmeniz için, kendi YKS puanınıza göre <strong>yapmanız
+            gereken minimum AGNO (not ortalaması)</strong> değerini hesaplar.</p>
+        <p class="note">Not: Hesaplamalar geçmiş yıl verilerine dayanır ve fikir verme amaçlıdır. Resmi bir
+          bağlayıcılığı yoktur.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- İletişim Modalı -->
+  <div id="contactModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>İletişim & Hata Bildirimi</h2>
+        <span class="close-btn" onclick="closeModal('contactModal')">&times;</span>
+      </div>
+      <div class="modal-body">
+        <p>Uygulamada bir hata fark ettiyseniz veya öneriniz varsa lütfen iletişime geçin.</p>
+        <div class="contact-box">
+          <p><strong>E-posta:</strong> <a href="mailto:dikmenomerf@gmail.com">dikmenomerf@gmail.com</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

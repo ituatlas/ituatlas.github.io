@@ -1,0 +1,23 @@
+{
+  "rewrites": [
+    {
+      "source": "/yatay-gecis",
+      "destination": "/yatay-gecis/index.html"
+    },
+    {
+      "source": "/cap",
+      "destination": "/cap/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    }
+  ]
+}

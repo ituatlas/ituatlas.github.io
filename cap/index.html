@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>İTÜ Çift Anadal Programları (ÇAP) Taban ve Tavan Not Ortalamaları | İTÜ Atlas</title>
+  <meta name="description" content="İTÜ Çift Anadal Programı (ÇAP) geçmiş yılların taban-tavan not ortalamaları">
+  <meta name="keywords" content="itüatlas, itü çap, itü çap sonuçları, itü çap puanları, itü çap taban puanları, itü çap geçmiş seneler, itü çift anadal, çift anadal programı, itü çap ortalamaları">
+  <link rel="stylesheet" href="../shared/style.css">
+</head>
+
+<body class="cap-page">
+  <div class="container">
+    <header>
+      <a href="../" class="home-link">←</a>
+      <div class="header-content">
+        <h1>İTÜ Çift Anadal Programları (ÇAP) Taban ve Tavan Not Ortalamaları</h1>
+      </div>
+      <nav class="header-nav">
+        <a href="#" onclick="openModal('contactModal'); return false;">İletişim</a>
+      </nav>
+    </header>
+
+    <div class="input-section">
+      <div class="input-row">
+        <div class="input-group">
+          <label for="yilSayisi">Gösterilecek Yıl Sayısı</label>
+          <select id="yilSayisi" onchange="renderPrograms()">
+            <!-- JS tarafından doldurulacak -->
+          </select>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Program ara..." oninput="filterPrograms()">
+    </div>
+
+    <div id="results-container">
+      <div class="loading">Veriler yükleniyor...</div>
+    </div>
+
+    <footer>
+      <p>Veriler İTÜ ve ÖSYM kaynaklarından derlenmiştir. Detaylı bilgi için <a
+          href="https://www.sis.itu.edu.tr/TR/ogrenci/lisans/cap-yandal-yatay-gecis/cap-yandal-yatay-gecis.php"
+          target="_blank">tıklayınız.</a></p>
+      <p>Son güncelleme: <span id="footerDate">-</span></p>
+    </footer>
+  </div>
+
+
+  <!-- İletişim Modalı -->
+  <div id="contactModal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>İletişim & Hata Bildirimi</h2>
+        <span class="close-btn" onclick="closeModal('contactModal')">&times;</span>
+      </div>
+      <div class="modal-body">
+        <p>Uygulamada bir hata fark ettiyseniz veya öneriniz varsa lütfen iletişime geçin.</p>
+        <div class="contact-box">
+          <p><strong>E-posta:</strong> <a href="mailto:dikmenomerf@gmail.com">dikmenomerf@gmail.com</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

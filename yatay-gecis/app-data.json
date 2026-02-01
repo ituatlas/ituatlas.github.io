@@ -1,0 +1,2507 @@
+{
+  "programlar": {
+    "İnşaat Mühendisliği (% 30 İngilizce)": {
+      "fakulte": "İnşaat Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 440.81624,
+        "2023": 452.46099,
+        "2024": 437.87862,
+        "2025": 454.61781
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 2,
+            "taban": 0.80504,
+            "tavan": 0.83046
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 0,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 5,
+            "yerlesen": 5,
+            "taban": 0.78949,
+            "tavan": 0.8398
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 0,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 5,
+            "yerlesen": 5,
+            "taban": 0.80037,
+            "tavan": 0.87499
+          }
+        }
+      }
+    },
+    "İnşaat Mühendisliği (% 100 İngilizce)": {
+      "fakulte": "İnşaat Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 467.11374,
+        "2023": 476.08534,
+        "2024": 460.25531,
+        "2025": 470.02755
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.81851,
+            "tavan": 0.81851
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 0,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 4,
+            "taban": 0.79856,
+            "tavan": 0.8816
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 0,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 4,
+            "taban": 0.80671,
+            "tavan": 0.94272
+          }
+        }
+      }
+    },
+    "Geomatik Mühendisliği (% 30 İngilizce)": {
+      "fakulte": "İnşaat Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": null,
+        "2023": null,
+        "2024": 390.0292,
+        "2025": 415.76406
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 6,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 0,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 5,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 0,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        }
+      }
+    },
+    "Geomatik Mühendisliği(% 100 İngilizce)": {
+      "fakulte": "İnşaat Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": null,
+        "2023": null,
+        "2024": 400.56837,
+        "2025": 424.08021
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 0,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 0,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        }
+      }
+    },
+    "Çevre Mühendisliği (% 30 İngilizce)": {
+      "fakulte": "İnşaat Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 432.58718,
+        "2023": 441.72178,
+        "2024": 422.30497,
+        "2025": 442.46797
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 6,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 6,
+            "yerlesen": 6,
+            "taban": 0.78477,
+            "tavan": 0.83746
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 6,
+            "yerlesen": 6,
+            "taban": 0.80984,
+            "tavan": 0.85239
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        }
+      }
+    },
+    "Çevre Mühendisliği (% 100 İngilizce)": {
+      "fakulte": "İnşaat Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 439.0477,
+        "2023": 449.22366,
+        "2024": 430.28816,
+        "2025": 447.68379
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 4,
+            "taban": 0.84639,
+            "tavan": 0.86513
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 4,
+            "taban": 0.79052,
+            "tavan": 0.81002
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        }
+      }
+    },
+    "Mimarlık (% 30 İngilizce)": {
+      "fakulte": "Mimarlık Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 469.75174,
+        "2023": 472.04742,
+        "2024": 448.09306,
+        "2025": 454.83317
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.87457,
+            "tavan": 0.90665
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.83331,
+            "tavan": 0.84023
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.89014,
+            "tavan": 0.91428
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.88564,
+            "tavan": 0.91031
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.89729,
+            "tavan": 0.90647
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.85811,
+            "tavan": 0.88152
+          }
+        }
+      }
+    },
+    "Mimarlık (% 100 İngilizce)": {
+      "fakulte": "Mimarlık Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 485.78822,
+        "2023": 485.23127,
+        "2024": 462.62975,
+        "2025": 462.12582
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.89926,
+            "tavan": 0.91894
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.83468,
+            "tavan": 0.83522
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.87443,
+            "tavan": 0.89816
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.87033,
+            "tavan": 0.87033
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.89029,
+            "tavan": 0.97159
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.86375,
+            "tavan": 0.86375
+          }
+        }
+      }
+    },
+    "Şehir ve Bölge Planlaması (% 30 İngilizce)": {
+      "fakulte": "Mimarlık Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 370.76367,
+        "2023": 388.55661,
+        "2024": 368.06968,
+        "2025": 388.53446
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        }
+      }
+    },
+    "Şehir ve Bölge Planlaması (% 100 İngilizce)": {
+      "fakulte": "Mimarlık Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 386.00559,
+        "2023": 398.11504,
+        "2024": 374.09303,
+        "2025": 392.13322
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        }
+      }
+    },
+    "Endüstriyel Tasarım (%100 İngilizce)": {
+      "fakulte": "Mimarlık Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 463.51345,
+        "2023": 466.90285,
+        "2024": 443.27708,
+        "2025": 453.63751
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.83106,
+            "tavan": 0.83106
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.87549,
+            "tavan": 0.87549
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.92208,
+            "tavan": 0.92208
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.84376,
+            "tavan": 0.84376
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.87286,
+            "tavan": 0.87286
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        }
+      }
+    },
+    "İç Mimarlık (% 30 İngilizce)": {
+      "fakulte": "Mimarlık Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 435.03197,
+        "2023": 436.81096,
+        "2024": 408.94598,
+        "2025": 425.01131
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.78974,
+            "tavan": 0.90303
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.79398,
+            "tavan": 0.79398
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.85614,
+            "tavan": 0.89537
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.86567,
+            "tavan": 0.86567
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.88354,
+            "tavan": 0.88773
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.85314,
+            "tavan": 0.85314
+          }
+        }
+      }
+    },
+    "Peyzaj Mimarlığı (% 100 İngilizce)": {
+      "fakulte": "Mimarlık Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 389.34062,
+        "2023": 401.10923,
+        "2024": 375.38029,
+        "2025": 391.58095
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        }
+      }
+    },
+    "Makina Mühendisliği (% 30 İngilizce)": {
+      "fakulte": "Makina Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 507.3,
+        "2023": 515.67219,
+        "2024": 508.63864,
+        "2025": 513.03357
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 8,
+            "yerlesen": 4,
+            "taban": 0.77569,
+            "tavan": 0.80796
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 8,
+            "yerlesen": 8,
+            "taban": 0.88548,
+            "tavan": 0.93458
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 7,
+            "yerlesen": 7,
+            "taban": 0.89965,
+            "tavan": 0.96492
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        }
+      }
+    },
+    "Elektronik ve Haberleşme Mühendisliği (% 30 İngilizce)": {
+      "fakulte": "Elektrik - Elektronik Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 525.09606,
+        "2023": 530.13833,
+        "2024": 522.83058,
+        "2025": 525.1301
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 4,
+            "taban": 0.90505,
+            "tavan": 0.96943
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 6,
+            "yerlesen": 5,
+            "taban": 0.78358,
+            "tavan": 0.92751
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 4,
+            "taban": 0.95066,
+            "tavan": 0.9898
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 6,
+            "yerlesen": 5,
+            "taban": 0.82531,
+            "tavan": 0.91866
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 5,
+            "yerlesen": 5,
+            "taban": 0.97289,
+            "tavan": 0.99198
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 5,
+            "yerlesen": 5,
+            "taban": 0.88935,
+            "tavan": 0.92528
+          }
+        }
+      }
+    },
+    "Elektronik ve Haberleşme Mühendisliği (% 100 İngilizce)": {
+      "fakulte": "Elektrik - Elektronik Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 532.11871,
+        "2023": 535.1846,
+        "2024": 529.41707,
+        "2025": 528.92344
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.90699,
+            "tavan": 0.91696
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 2,
+            "taban": 0.85283,
+            "tavan": 0.94988
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.95311,
+            "tavan": 0.96405
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 3,
+            "taban": 0.72231,
+            "tavan": 0.92845
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 4,
+            "taban": 0.96151,
+            "tavan": 0.9993
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 1,
+            "taban": 0.81151,
+            "tavan": 0.81151
+          }
+        }
+      }
+    },
+    "Elektrik Mühendisliği (% 30 İngilizce)": {
+      "fakulte": "Elektrik - Elektronik Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 502.58555,
+        "2023": 514.73375,
+        "2024": 507.81846,
+        "2025": 510.72492
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 6,
+            "yerlesen": 6,
+            "taban": 0.82472,
+            "tavan": 0.9927
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 6,
+            "yerlesen": 6,
+            "taban": 0.89925,
+            "tavan": 0.93464
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 5,
+            "yerlesen": 5,
+            "taban": 0.89923,
+            "tavan": 0.91139
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        }
+      }
+    },
+    "Elektrik Mühendisliği (% 100 İngilizce)": {
+      "fakulte": "Elektrik - Elektronik Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 512.58077,
+        "2023": 520.68008,
+        "2024": 510.86388,
+        "2025": 512.96624
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 2,
+            "taban": 0.70371,
+            "tavan": 0.76591
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.88852,
+            "tavan": 0.92297
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.88282,
+            "tavan": 0.90966
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        }
+      }
+    },
+    "Kontrol ve Otomasyon Mühendisliği (% 30 İngilizce)": {
+      "fakulte": "Elektrik - Elektronik Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": 517.75196
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.86941,
+            "tavan": 0.90456
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 1,
+            "taban": 0.90455,
+            "tavan": 0.90455
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.95444,
+            "tavan": 0.96968
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 1,
+            "taban": 0.85342,
+            "tavan": 0.85342
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.94057,
+            "tavan": 0.98192
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.86003,
+            "tavan": 0.87063
+          }
+        }
+      }
+    },
+    "Kontrol ve Otomasyon Mühendisliği (% 100 İngilizce)": {
+      "fakulte": "Elektrik - Elektronik Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": null,
+        "2023": null,
+        "2024": null,
+        "2025": 518.52409
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.89448,
+            "tavan": 0.91993
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.94056,
+            "tavan": 0.94504
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.91642,
+            "tavan": 0.94979
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        }
+      }
+    },
+    "Maden Mühendisliği (% 30 İngilizce)": {
+      "fakulte": "Maden Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 408.54702,
+        "2023": 422.6284,
+        "2024": 408.27262,
+        "2025": 431.56899
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 1,
+            "taban": 0.92318,
+            "tavan": 0.92318
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 1,
+            "taban": 0.80798,
+            "tavan": 0.80798
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 2,
+            "taban": 0.81119,
+            "tavan": 0.8336
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        }
+      }
+    },
+    "Jeoloji Mühendisliği (% 30 İngilizce)": {
+      "fakulte": "Maden Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 392.14235,
+        "2023": 411.51038,
+        "2024": 392.16172,
+        "2025": 410.10025
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        }
+      }
+    },
+    "Jeofizik Mühendisliği (% 30 İngilizce)": {
+      "fakulte": "Maden Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 378.11435,
+        "2023": 401.9893,
+        "2024": 389.72976,
+        "2025": 408.65198
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        }
+      }
+    },
+    "Petrol ve Doğalgaz Mühendisliği (% 100 İngilizce)": {
+      "fakulte": "Maden Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 428.21417,
+        "2023": 451.07706,
+        "2024": 445.20194,
+        "2025": 466.87039
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 1,
+            "taban": 0.81899,
+            "tavan": 0.81899
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.86296,
+            "tavan": 0.9196
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.81195,
+            "tavan": 0.83798
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        }
+      }
+    },
+    "Cevher Hazırlama Mühendisliği (% 30 İngilizce)": {
+      "fakulte": "Maden Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 367.60686,
+        "2023": 398.68572,
+        "2024": 392.79571,
+        "2025": 419.17729
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 0,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 0,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        }
+      }
+    },
+    "Kimya Mühendisliği (% 30 İngilizce)": {
+      "fakulte": "Kimya - Metalurji Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 487.50891,
+        "2023": 501.96303,
+        "2024": 492.4426,
+        "2025": 496.82307
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 2,
+            "taban": 0.84158,
+            "tavan": 0.84724
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 2,
+            "taban": 0.81566,
+            "tavan": 0.84706
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.87434,
+            "tavan": 0.9073
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 2,
+            "taban": 0.7993,
+            "tavan": 0.8609
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.90805,
+            "tavan": 0.95189
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.81903,
+            "tavan": 0.83787
+          }
+        }
+      }
+    },
+    "Metalurji ve Malzeme Mühendisliği (% 30 İngilizce)": {
+      "fakulte": "Kimya - Metalurji Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 482.01974,
+        "2023": 497.81029,
+        "2024": 490.58027,
+        "2025": 493.98586
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 5,
+            "yerlesen": 2,
+            "taban": 0.82264,
+            "tavan": 0.87489
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 0,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 5,
+            "yerlesen": 5,
+            "taban": 0.88451,
+            "tavan": 0.89962
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 0,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 4,
+            "taban": 0.89838,
+            "tavan": 0.91078
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        }
+      }
+    },
+    "Metalurji ve Malzeme Mühendisliği (% 100 İngilizce)": {
+      "fakulte": "Kimya - Metalurji Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 490.83578,
+        "2023": 505.75196,
+        "2024": 495.02299,
+        "2025": 498.72943
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 5,
+            "yerlesen": 1,
+            "taban": 0.71616,
+            "tavan": 0.71616
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 0,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 5,
+            "yerlesen": 5,
+            "taban": 0.86102,
+            "tavan": 0.87326
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 0,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 4,
+            "taban": 0.87987,
+            "tavan": 0.90945
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        }
+      }
+    },
+    "Gıda Mühendisliği (% 30 İngilizce)": {
+      "fakulte": "Kimya - Metalurji Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 445.9529,
+        "2023": 457.60725,
+        "2024": 432.43606,
+        "2025": 447.32016
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 0,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.85965,
+            "tavan": 0.86428
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 0,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.82923,
+            "tavan": 0.86775
+          }
+        }
+      }
+    },
+    "İşletme Mühendisliği (% 100 İngilizce)": {
+      "fakulte": "İşletme Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 514.34252,
+        "2023": 523.3213,
+        "2024": 513.52841,
+        "2025": 514.08138
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 6,
+            "yerlesen": 6,
+            "taban": 0.83777,
+            "tavan": 0.88358
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 0,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 6,
+            "yerlesen": 6,
+            "taban": 0.91797,
+            "tavan": 0.94648
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 0,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 4,
+            "taban": 0.95858,
+            "tavan": 0.97243
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        }
+      }
+    },
+    "Endüstri Mühendisliği (% 30 İngilizce)": {
+      "fakulte": "İşletme Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 523.74226,
+        "2023": 529.98076,
+        "2024": 519.84288,
+        "2025": 519.7489
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 5,
+            "yerlesen": 5,
+            "taban": 0.86249,
+            "tavan": 0.93448
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 0,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.94119,
+            "tavan": 0.97448
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 0,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.97101,
+            "tavan": 0.9922
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        }
+      }
+    },
+    "Endüstri Mühendisliği (% 100 İngilizce)": {
+      "fakulte": "İşletme Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 528.81826,
+        "2023": 534.14396,
+        "2024": 524.32042,
+        "2025": 521.49444
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.89606,
+            "tavan": 0.94658
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 0,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.94709,
+            "tavan": 0.9568
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 0,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.9522,
+            "tavan": 0.95954
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.86642,
+            "tavan": 0.86642
+          }
+        }
+      }
+    },
+    "Ekonomi (% 100 İngilizce)": {
+      "fakulte": "İşletme Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 480.66359,
+        "2023": 487.49685,
+        "2024": 475.94136,
+        "2025": 471.36296
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.8005,
+            "tavan": 0.88521
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.84087,
+            "tavan": 0.86413
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.86741,
+            "tavan": 0.91038
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.74001,
+            "tavan": 0.88525
+          }
+        }
+      }
+    },
+    "Gemi İnşaatı ve Gemi Makineleri Mühendisliği (% 30 İngilizce)": {
+      "fakulte": "Gemi İnşaatı ve Deniz Bilimleri Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 477.81642,
+        "2023": 491.43774,
+        "2024": 486.45833,
+        "2025": 495.88219
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 2,
+            "taban": 0.73745,
+            "tavan": 0.81273
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.86836,
+            "tavan": 0.88975
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.89068,
+            "tavan": 0.90968
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.85454,
+            "tavan": 0.89371
+          }
+        }
+      }
+    },
+    "Gemi ve Deniz Teknolojisi Mühendisliği (% 30 İngilizce)": {
+      "fakulte": "Gemi İnşaatı ve Deniz Bilimleri Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 430.87314,
+        "2023": 454.516,
+        "2024": 463.62883,
+        "2025": 486.14362
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 0,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 0,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.8185,
+            "tavan": 0.86734
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        }
+      }
+    },
+    "Matematik Mühendisliği (% 30 İngilizce)": {
+      "fakulte": "Fen - Edebiyat Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 511.66215,
+        "2023": 522.96778,
+        "2024": 517.55503,
+        "2025": 522.35951
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.91397,
+            "tavan": 0.91397
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 0,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.95257,
+            "tavan": 0.95257
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 0,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.93717,
+            "tavan": 0.99052
+          }
+        }
+      }
+    },
+    "Fizik Mühendisliği (% 30 İngilizce)": {
+      "fakulte": "Fen - Edebiyat Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 477.8529,
+        "2023": 494.3693,
+        "2024": 483.12088,
+        "2025": 492.48652
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 1,
+            "taban": 0.85975,
+            "tavan": 0.85975
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.8975,
+            "tavan": 0.99156
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.90391,
+            "tavan": 0.92917
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        }
+      }
+    },
+    "Kimya (% 30 İngilizce)": {
+      "fakulte": "Fen - Edebiyat Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 450.47952,
+        "2023": 460.80478,
+        "2024": 437.94028,
+        "2025": 451.03534
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.85878,
+            "tavan": 0.94509
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.86966,
+            "tavan": 0.93499
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        }
+      }
+    },
+    "Moleküler Biyoloji ve Genetik (% 100 İngilizce)": {
+      "fakulte": "Fen - Edebiyat Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 496.13795,
+        "2023": 500.47543,
+        "2024": 479.58318,
+        "2025": 471.79154
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.78024,
+            "tavan": 0.78024
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.82861,
+            "tavan": 0.82861
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.88842,
+            "tavan": 0.88842
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        }
+      }
+    },
+    "Uçak Mühendisliği (% 30 İngilizce)": {
+      "fakulte": "Uçak ve Uzay Bilimleri Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 524.25167,
+        "2023": 531.59839,
+        "2024": 526.27204,
+        "2025": 528.30902
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.88676,
+            "tavan": 0.91874
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 1,
+            "taban": 0.91158,
+            "tavan": 0.91158
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.95509,
+            "tavan": 0.97152
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.76243,
+            "tavan": 0.78628
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.94713,
+            "tavan": 0.95513
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.82939,
+            "tavan": 0.84385
+          }
+        }
+      }
+    },
+    "Uzay Mühendisliği (% 100 İngilizce)": {
+      "fakulte": "Uçak ve Uzay Bilimleri Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 517.40975,
+        "2023": 525.34128,
+        "2024": 518.39828,
+        "2025": 520.37334
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.76075,
+            "tavan": 0.80878
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.91092,
+            "tavan": 0.92911
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 0,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.91522,
+            "tavan": 0.9221
+          }
+        }
+      }
+    },
+    "Meteoroloji Mühendisliği (% 30 İngilizce)": {
+      "fakulte": "Uçak ve Uzay Bilimleri Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 418.51153,
+        "2023": 432.85539,
+        "2024": 417.86283,
+        "2025": 438.78269
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.84781,
+            "tavan": 0.8719
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 0,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        }
+      }
+    },
+    "Gemi Makinaları İşletme Mühendisliği (% 30 İngilizce)": {
+      "fakulte": "Denizcilik Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 444.92616,
+        "2023": 459.35746,
+        "2024": 443.89739,
+        "2025": 457.66611
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 0,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 1,
+            "taban": 0.85904,
+            "tavan": 0.85904
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        }
+      }
+    },
+    "Deniz Ulaştırma İşletme Mühendisliği (% 30 İngilizce)": {
+      "fakulte": "Denizcilik Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 442.32802,
+        "2023": 455.40168,
+        "2024": 436.15913,
+        "2025": 452.99272
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 1,
+            "taban": 0.80734,
+            "tavan": 0.80734
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 1,
+            "taban": 0.88919,
+            "tavan": 0.88919
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        }
+      }
+    },
+    "Tekstil Mühendisliği (% 100 İngilizce)": {
+      "fakulte": "Tekstil Teknolojileri ve Tasarımı Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 464.02787,
+        "2023": 474.33188,
+        "2024": 447.81947,
+        "2025": 445.2388
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 1,
+            "taban": 0.77693,
+            "tavan": 0.77693
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 0,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.84079,
+            "tavan": 0.86799
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 0,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 1,
+            "taban": 0.82935,
+            "tavan": 0.82935
+          }
+        }
+      }
+    },
+    "Bilgisayar Mühendisliği (% 100 İngilizce)": {
+      "fakulte": "Bilgisayar ve Bilişim Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 539.22704,
+        "2023": 542.06013,
+        "2024": 536.3077,
+        "2025": 533.13588
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.93037,
+            "tavan": 0.97415
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.98209,
+            "tavan": 0.98955
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.85938,
+            "tavan": 0.85938
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.9772,
+            "tavan": 0.99248
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.9557,
+            "tavan": 0.9557
+          }
+        }
+      }
+    },
+    "Yapay Zeka ve Veri Mühendisliği (% 100 İngilizce)": {
+      "fakulte": "Bilgisayar ve Bilişim Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 536.37088,
+        "2023": 539.20241,
+        "2024": 533.26505,
+        "2025": 529.88486
+      },
+      "yatay_gecis_istatistikleri": {
+        "202410": {
+          "3.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.99682,
+            "tavan": 0.99682
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202510": {
+          "3.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.98554,
+            "tavan": 0.98554
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.97938,
+            "tavan": 0.97938
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        }
+      }
+    },
+    "Harita Mühendisliği (%30 İngilizce)": {
+      "fakulte": "İnşaat Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": null,
+        "2023": null,
+        "2024": 390.0292,
+        "2025": 415.76406
+      },
+      "yatay_gecis_istatistikleri": {
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 5,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        }
+      }
+    },
+    "Harita Mühendisliği (%100 İngilizce)": {
+      "fakulte": "İnşaat Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": null,
+        "2023": null,
+        "2024": 400.56837,
+        "2025": 424.08021
+      },
+      "yatay_gecis_istatistikleri": {
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        }
+      }
+    },
+    "Elektronik ve Haberleşme Mühendisliği (İngilizce) UOLP (ABD-NJIT)": {
+      "fakulte": "Elektrik - Elektronik Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 382.65507,
+        "2023": null,
+        "2024": 433.43827,
+        "2025": 451.29222
+      },
+      "yatay_gecis_istatistikleri": {
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        }
+      }
+    },
+    "İklim Bilimi ve Meteoroloji Mühendisliği (%30 İngilizce)": {
+      "fakulte": "Uçak ve Uzay Bilimleri Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": 418.51153,
+        "2023": 432.85539,
+        "2024": 417.86283,
+        "2025": 438.78269
+      },
+      "yatay_gecis_istatistikleri": {
+        "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 2,
+            "taban": 0.83893,
+            "tavan": 0.89297
+          }
+        }
+      }
+    }
+  },
+  "meta": {
+    "donemler": [
+      "202610",
+      "202510",
+      "202410"
+    ],
+    "yks_yillari": [
+      2025,
+      2024,
+      2023,
+      2022
+    ],
+    "guncelleme_tarihi": "2026-01-28"
+  }
+}
