@@ -1,5 +1,33 @@
 let capData = null;
 let selectedYariyilFilter = 'all';
+let formulaModalTrigger = null;
+
+function formulaInfoButton(programName) {
+  if (programName !== 'Fizik' && programName !== 'Matematik') return '';
+  return `<button type="button" class="formula-info-button" aria-label="${programName} ÇAP değerlendirme formülü ve kuralı" aria-haspopup="dialog" onclick="openFormulaModal('${programName}', this)" title="Değerlendirme formülü ve kuralı">i</button>`;
+}
+
+function openFormulaModal(programName, trigger) {
+  if (programName !== 'Fizik' && programName !== 'Matematik') return;
+  const referenceProgram = programName === 'Fizik' ? 'Fizik Mühendisliği' : 'Matematik Mühendisliği';
+  const clause = programName === 'Fizik' ? 'b' : 'c';
+  document.getElementById('formulaModalTitle').textContent = `${programName} ÇAP değerlendirme kuralı`;
+  document.getElementById('formulaModalBody').innerHTML = `
+    <p>Bu programın ÇAP başvuruları, ÖSYS puan oranı ve AGNO birlikte kullanılarak hesaplanan değerlendirme puanıyla değerlendirilir. Listedeki taban ve tavan değerler bu puana aittir; 4 üzerinden not ortalaması değildir.</p>
+    <div class="cap-formula" aria-label="Değerlendirme puanı formülü">
+      <strong>Değerlendirme puanı =</strong>
+      <span>0,40 × (Adayın ÖSYS puanı / ${referenceProgram} programının adayın sınava girdiği yıldaki taban puanı)</span>
+      <span>+ 0,60 × (Adayın yüzlük birimdeki üniversite AGNO’su / 100)</span>
+    </div>
+    <p>ÖSYS katkısı için adayın puanı, <strong>${referenceProgram}</strong> programının aynı sınav yılındaki taban puanına bölünür. Bu oran %40, yüzlük AGNO’nun 100’e bölünmesiyle bulunan oran %60 ağırlıkla kullanılır.</p>
+    <p>Fizik ve Matematik dışındaki ÇAP programlarında ise önce AGNO, eşitlik halinde tamamlanan anadal kredisi, bunlar da eşitse giriş yılındaki ÖSYM sıralaması dikkate alınır (Madde 30/8-a).</p>
+    <p><strong>Dayanak:</strong> İTÜ Lisans Programları Yatay Geçiş, Çift Anadal Programı (ÇAP) ve Yandal Programı Yönergesi, <strong>Madde 30, fıkra 8, bent ${clause}</strong>. Bu hüküm 09.07.2026 tarihli, 916 sayılı Senato kararıyla eklenmiştir.</p>
+    <p class="cap-formula-sources"><a href="https://www.sis.itu.edu.tr/TR/mevzuat/yatay-cap-yandal-yonerge.php" target="_blank" rel="noopener noreferrer">Resmî yönergeyi aç (Madde 30/8-${clause})</a><br>
+    <a href="https://www.sis.itu.edu.tr/duyuru_ekler/cap_yandal_yatay202710/ituici_cap_yandal_yatay/TR/sonuclar/ycy-sonuclar-202710.php" target="_blank" rel="noopener noreferrer">2026-2027 sonuç duyurusundaki formüller</a></p>`;
+  formulaModalTrigger = trigger;
+  openModal('formulaModal');
+  document.getElementById('formulaModalClose').focus();
+}
 
 // Sayfa yüklendiğinde
 document.addEventListener('DOMContentLoaded', async () => {
@@ -146,7 +174,7 @@ function renderPrograms() {
       // Mobil görünüm için başlık satırı
       html += `
         <tr class="mobile-program-header">
-          <td colspan="5">${program.ad}</td>
+          <td colspan="5">${program.ad} ${formulaInfoButton(program.ad)}${program.puan_turu === 'degerlendirme' ? ' (Değerlendirme puanı)' : ''}</td>
         </tr>
       `;
 
@@ -164,7 +192,8 @@ function renderPrograms() {
           if (isFirstYear && index === 0) {
             html += `
               <td class="program-cell" rowspan="${totalProgramRows}">
-                <div class="program-name">${program.ad}</div>
+                <div class="program-name">${program.ad} ${formulaInfoButton(program.ad)}</div>
+                ${program.puan_turu === 'degerlendirme' ? '<small>Değerlendirme puanı (AGNO değildir)</small>' : ''}
               </td>
             `;
             isFirstYear = false;
@@ -304,10 +333,10 @@ function collectGroupedRows(program, donemler) {
 
       if (Array.isArray(data)) {
         for (const item of data) {
-          yearRows.push(createRowHtml(yariyil, item, donem));
+          yearRows.push(createRowHtml(yariyil, item, donem, program.puan_turu));
         }
       } else {
-        yearRows.push(createRowHtml(yariyil, data, donem));
+        yearRows.push(createRowHtml(yariyil, data, donem, program.puan_turu));
       }
     }
 
@@ -320,14 +349,14 @@ function collectGroupedRows(program, donemler) {
 }
 
 // Satır HTML'i (Sadece veri hücreleri)
-function createRowHtml(yariyil, data, yilLabel) {
+function createRowHtml(yariyil, data, yilLabel, puanTuru) {
   const kontenjan = data.kontenjan !== null ? data.kontenjan : '-';
   const yerlesen = data.yerlesen || 0;
-  const tavan = formatGPA(data.tavan);
-  const taban = formatGPA(data.taban);
+  const tavan = formatGPA(data.tavan, puanTuru);
+  const taban = formatGPA(data.taban, puanTuru);
 
-  const tavanClass = getGPAClass(data.tavan);
-  const tabanClass = getGPAClass(data.taban);
+  const tavanClass = puanTuru === 'degerlendirme' ? '' : getGPAClass(data.tavan);
+  const tabanClass = puanTuru === 'degerlendirme' ? '' : getGPAClass(data.taban);
 
   const aciklamaAttr = data.aciklama ? `data-title="${data.aciklama}"` : '';
   const aciklamaIcon = data.aciklama ? ` <span class="aciklama-icon" ${aciklamaAttr}>*</span>` : '';
@@ -345,9 +374,9 @@ function createRowHtml(yariyil, data, yilLabel) {
 }
 
 // GPA formatla
-function formatGPA(value) {
+function formatGPA(value, puanTuru) {
   if (value === null || value === undefined) return '-';
-  return value.toFixed(2);
+  return value.toFixed(puanTuru === 'degerlendirme' ? 5 : 2);
 }
 
 // GPA için CSS sınıfı
@@ -372,13 +401,16 @@ function openModal(modalId) {
 function closeModal(modalId) {
   document.getElementById(modalId).style.display = 'none';
   document.body.style.overflow = 'auto';
+  if (modalId === 'formulaModal') {
+    formulaModalTrigger?.focus();
+    formulaModalTrigger = null;
+  }
 }
 
 // Modal dışına tıklandığında kapat
 window.onclick = function (event) {
   if (event.target.classList.contains('modal')) {
-    event.target.style.display = 'none';
-    document.body.style.overflow = 'auto';
+    closeModal(event.target.id);
   }
 };
 
@@ -386,8 +418,24 @@ window.onclick = function (event) {
 document.addEventListener('keydown', function (event) {
   if (event.key === 'Escape') {
     document.querySelectorAll('.modal').forEach(modal => {
-      modal.style.display = 'none';
+      if (modal.style.display === 'block') closeModal(modal.id);
     });
     document.body.style.overflow = 'auto';
+  }
+});
+
+// Keep keyboard focus within the formula dialog while it is open.
+document.addEventListener('keydown', event => {
+  const modal = document.getElementById('formulaModal');
+  if (event.key !== 'Tab' || modal.style.display !== 'block') return;
+  const focusable = Array.from(modal.querySelectorAll('button, a[href]'));
+  const first = focusable[0];
+  const last = focusable[focusable.length - 1];
+  if (event.shiftKey && document.activeElement === first) {
+    event.preventDefault();
+    last.focus();
+  } else if (!event.shiftKey && document.activeElement === last) {
+    event.preventDefault();
+    first.focus();
   }
 });

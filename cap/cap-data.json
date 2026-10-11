@@ -3,6 +3,20 @@
     "İnşaat Mühendisliği": {
       "fakulte": "İnşaat Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 23,
+            "yerlesen": 5,
+            "tavan": 3.32,
+            "taban": 3.05
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 8,
+            "yerlesen": 1,
+            "tavan": 3.08,
+            "taban": 3.08
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 22,
@@ -218,6 +232,20 @@
     "Çevre Mühendisliği": {
       "fakulte": "İnşaat Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 9,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 5,
+            "yerlesen": 1,
+            "tavan": 3.34,
+            "taban": 3.34
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 9,
@@ -433,6 +461,20 @@
     "Harita Mühendisliği": {
       "fakulte": "İnşaat Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 12,
+            "yerlesen": 1,
+            "tavan": 3.04,
+            "taban": 3.04
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 6,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 8,
@@ -452,6 +494,20 @@
     "Mimarlık": {
       "fakulte": "Mimarlık Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 16,
+            "yerlesen": 10,
+            "tavan": 3.56,
+            "taban": 3.34
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 8,
+            "yerlesen": 5,
+            "tavan": 3.48,
+            "taban": 3.17
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 14,
@@ -667,6 +723,20 @@
     "Şehir ve Bölge Planlaması": {
       "fakulte": "Mimarlık Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 7,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 5,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 9,
@@ -868,6 +938,20 @@
     "İç Mimarlık": {
       "fakulte": "Mimarlık Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 4,
@@ -1083,6 +1167,20 @@
     "Peyzaj Mimarlığı": {
       "fakulte": "Mimarlık Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 4,
@@ -1298,6 +1396,20 @@
     "Endüstriyel Tasarım": {
       "fakulte": "Mimarlık Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 6,
+            "yerlesen": 5,
+            "tavan": 3.62,
+            "taban": 3.31
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "tavan": 3.63,
+            "taban": 3.19
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 6,
@@ -1331,6 +1443,20 @@
     "Makina Mühendisliği": {
       "fakulte": "Makina Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 20,
+            "yerlesen": 20,
+            "tavan": 3.83,
+            "taban": 3.16
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 8,
+            "yerlesen": 8,
+            "tavan": 3.44,
+            "taban": 3.02
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 22,
@@ -1543,9 +1669,202 @@
         }
       }
     },
+    "İmalat Mühendisliği": {
+      "fakulte": "Makina Fakültesi",
+      "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": [
+            {
+              "kontenjan": 6,
+              "yerlesen": 0,
+              "tavan": null,
+              "taban": null,
+              "aciklama": "MAK,MAKE, programları öğrenciler"
+            },
+            {
+              "kontenjan": 6,
+              "yerlesen": 0,
+              "tavan": null,
+              "taban": null,
+              "aciklama": "END,ENDE, programları öğrenciler"
+            },
+            {
+              "kontenjan": 6,
+              "yerlesen": 1,
+              "tavan": 3.5,
+              "taban": 3.5,
+              "aciklama": "MET,METE, programları öğrenciler"
+            }
+          ],
+          "5.Yarıyıl": [
+            {
+              "kontenjan": 4,
+              "yerlesen": 0,
+              "tavan": null,
+              "taban": null,
+              "aciklama": "MAK,MAKE, programları öğrenciler"
+            },
+            {
+              "kontenjan": 4,
+              "yerlesen": 0,
+              "tavan": null,
+              "taban": null,
+              "aciklama": "END,ENDE, programları öğrenciler"
+            },
+            {
+              "kontenjan": 4,
+              "yerlesen": 0,
+              "tavan": null,
+              "taban": null,
+              "aciklama": "MET,METE, programları öğrenciler"
+            }
+          ]
+        },
+        "2019-2020": {
+          "3.Yarıyıl": {
+            "kontenjan": null,
+            "yerlesen": 2,
+            "tavan": 3.3,
+            "taban": 3.14
+          },
+          "5.Yarıyıl": {
+            "kontenjan": null,
+            "yerlesen": 1,
+            "tavan": 3.14,
+            "taban": 3.14
+          }
+        },
+        "2018-2019": {
+          "3.Yarıyıl": {
+            "kontenjan": null,
+            "yerlesen": 3,
+            "tavan": 3.4,
+            "taban": 3.14
+          },
+          "5.Yarıyıl": {
+            "kontenjan": null,
+            "yerlesen": 1,
+            "tavan": 3.24,
+            "taban": 3.24
+          }
+        },
+        "2017-2018": {
+          "3.Yarıyıl": {
+            "kontenjan": null,
+            "yerlesen": 2,
+            "tavan": 3.29,
+            "taban": 3.23
+          },
+          "5.Yarıyıl": {
+            "kontenjan": null,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          }
+        },
+        "2016-2017": {
+          "3.Yarıyıl": {
+            "kontenjan": null,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": null,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          }
+        },
+        "2015-2016": {
+          "3.Yarıyıl": {
+            "kontenjan": null,
+            "yerlesen": 2,
+            "tavan": 3.2,
+            "taban": 3.01
+          },
+          "5.Yarıyıl": {
+            "kontenjan": null,
+            "yerlesen": 1,
+            "tavan": 3.01,
+            "taban": 3.01
+          }
+        },
+        "2014-2015": {
+          "3.Yarıyıl": {
+            "kontenjan": null,
+            "yerlesen": 3,
+            "tavan": 3.23,
+            "taban": 3.16
+          },
+          "5.Yarıyıl": {
+            "kontenjan": null,
+            "yerlesen": 1,
+            "tavan": 3.22,
+            "taban": 3.22
+          }
+        },
+        "2013-2014": {
+          "3.Yarıyıl": {
+            "kontenjan": null,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": null,
+            "yerlesen": 2,
+            "tavan": 3.45,
+            "taban": 3.3
+          }
+        },
+        "2012-2013": {
+          "3.Yarıyıl": {
+            "kontenjan": null,
+            "yerlesen": 2,
+            "tavan": 3.09,
+            "taban": 3.08
+          },
+          "5.Yarıyıl": {
+            "kontenjan": null,
+            "yerlesen": 2,
+            "tavan": 3.34,
+            "taban": 3.22
+          }
+        },
+        "2011-2012": {
+          "3.Yarıyıl": {
+            "kontenjan": null,
+            "yerlesen": 2,
+            "tavan": 3.43,
+            "taban": 3.25
+          },
+          "5.Yarıyıl": {
+            "kontenjan": null,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          }
+        }
+      }
+    },
     "Elektronik ve Haberleşme Mühendisliği": {
       "fakulte": "Elektrik - Elektronik Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 13,
+            "yerlesen": 13,
+            "tavan": 3.91,
+            "taban": 3.62
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 7,
+            "yerlesen": 7,
+            "tavan": 3.96,
+            "taban": 3.43
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 17,
@@ -1761,6 +2080,20 @@
     "Elektrik Mühendisliği": {
       "fakulte": "Elektrik - Elektronik Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 10,
+            "yerlesen": 10,
+            "tavan": 3.57,
+            "taban": 3.29
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 7,
+            "yerlesen": 7,
+            "tavan": 3.42,
+            "taban": 3.19
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 13,
@@ -1976,6 +2309,20 @@
     "Kontrol ve Otomasyon Mühendisliği": {
       "fakulte": "Elektrik - Elektronik Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 9,
+            "yerlesen": 9,
+            "tavan": 3.78,
+            "taban": 3.56
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 6,
+            "yerlesen": 6,
+            "tavan": 3.85,
+            "taban": 3.38
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 12,
@@ -2149,6 +2496,20 @@
     "Maden Mühendisliği": {
       "fakulte": "Maden Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 5,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 4,
@@ -2350,6 +2711,20 @@
     "Jeoloji Mühendisliği": {
       "fakulte": "Maden Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 5,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 4,
@@ -2565,6 +2940,20 @@
     "Jeofizik Mühendisliği": {
       "fakulte": "Maden Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 1,
+            "tavan": 3.18,
+            "taban": 3.18
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "tavan": 3.19,
+            "taban": 3.19
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 3,
@@ -2766,6 +3155,20 @@
     "Petrol ve Doğalgaz Mühendisliği": {
       "fakulte": "Maden Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 1,
+            "tavan": 3.07,
+            "taban": 3.07
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "tavan": 3.32,
+            "taban": 3.32
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 4,
@@ -2967,6 +3370,20 @@
     "Cevher Hazırlama Mühendisliği": {
       "fakulte": "Maden Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 5,
@@ -3182,6 +3599,20 @@
     "Kimya Mühendisliği": {
       "fakulte": "Kimya - Metalurji Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 6,
+            "yerlesen": 6,
+            "tavan": 3.67,
+            "taban": 3.45
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "tavan": 3.67,
+            "taban": 3.65
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 6,
@@ -3397,6 +3828,20 @@
     "Metalurji ve Malzeme Mühendisliği": {
       "fakulte": "Kimya - Metalurji Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 9,
+            "yerlesen": 9,
+            "tavan": 3.87,
+            "taban": 3.23
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 4,
+            "tavan": 3.31,
+            "taban": 3.2
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 12,
@@ -3612,6 +4057,20 @@
     "Gıda Mühendisliği": {
       "fakulte": "Kimya - Metalurji Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 6,
@@ -3827,6 +4286,37 @@
     "İşletme Mühendisliği": {
       "fakulte": "İşletme Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 8,
+            "yerlesen": 8,
+            "tavan": 3.81,
+            "taban": 3.56
+          },
+          "5.Yarıyıl": [
+            {
+              "kontenjan": 1,
+              "yerlesen": 0,
+              "tavan": null,
+              "taban": null,
+              "aciklama": "ECNE, programları öğrenciler"
+            },
+            {
+              "kontenjan": 1,
+              "yerlesen": 1,
+              "tavan": 3.45,
+              "taban": 3.45,
+              "aciklama": "END,ENDE, programları öğrenciler"
+            },
+            {
+              "kontenjan": 1,
+              "yerlesen": 0,
+              "tavan": null,
+              "taban": null,
+              "aciklama": "VBAE, programları öğrenciler"
+            }
+          ]
+        },
         "2025-2026": {
           "3.Yarıyıl": [
             {
@@ -4122,6 +4612,37 @@
     "Endüstri Mühendisliği": {
       "fakulte": "İşletme Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 11,
+            "yerlesen": 11,
+            "tavan": 3.89,
+            "taban": 3.66
+          },
+          "5.Yarıyıl": [
+            {
+              "kontenjan": 1,
+              "yerlesen": 1,
+              "tavan": 3.67,
+              "taban": 3.67,
+              "aciklama": "ECNE, programları öğrenciler"
+            },
+            {
+              "kontenjan": 1,
+              "yerlesen": 0,
+              "tavan": null,
+              "taban": null,
+              "aciklama": "ISL,ISLE, programları öğrenciler"
+            },
+            {
+              "kontenjan": 1,
+              "yerlesen": 0,
+              "tavan": null,
+              "taban": null,
+              "aciklama": "VBAE, programları öğrenciler"
+            }
+          ]
+        },
         "2025-2026": {
           "3.Yarıyıl": [
             {
@@ -4417,6 +4938,40 @@
     "Ekonomi": {
       "fakulte": "İşletme Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": [
+            {
+              "kontenjan": 4,
+              "yerlesen": 4,
+              "tavan": 3.92,
+              "taban": 3.59,
+              "aciklama": "MAT,MATE, programların dışındaki öğrenciler"
+            },
+            {
+              "kontenjan": 1,
+              "yerlesen": 1,
+              "tavan": 3.71,
+              "taban": 3.71,
+              "aciklama": "MAT,MATE, programları öğrenciler"
+            }
+          ],
+          "5.Yarıyıl": [
+            {
+              "kontenjan": 1,
+              "yerlesen": 1,
+              "tavan": 3.86,
+              "taban": 3.86,
+              "aciklama": "MAT,MATE, programların dışındaki öğrenciler"
+            },
+            {
+              "kontenjan": 1,
+              "yerlesen": 0,
+              "tavan": null,
+              "taban": null,
+              "aciklama": "MAT,MATE, programları öğrenciler"
+            }
+          ]
+        },
         "2025-2026": {
           "3.Yarıyıl": [
             {
@@ -4509,9 +5064,46 @@
         }
       }
     },
+    "Veri Bilimi ve Analitiği (%100 İngilizce)": {
+      "fakulte": "İşletme Fakültesi",
+      "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": [
+            {
+              "kontenjan": 4,
+              "yerlesen": 4,
+              "tavan": 3.57,
+              "taban": 3.45,
+              "aciklama": "İşletme Fakültesi  öğrenciler"
+            },
+            {
+              "kontenjan": 1,
+              "yerlesen": 1,
+              "tavan": 3.34,
+              "taban": 3.34,
+              "aciklama": "MAT,MATE, programları öğrenciler"
+            }
+          ]
+        }
+      }
+    },
     "Gemi İnşaatı ve Gemi Makineleri Mühendisliği": {
       "fakulte": "Gemi İnşaatı ve Deniz Bilimleri Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 6,
+            "yerlesen": 5,
+            "tavan": 3.28,
+            "taban": 3.01
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 5,
+            "yerlesen": 1,
+            "tavan": 3.27,
+            "taban": 3.27
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 6,
@@ -4713,6 +5305,20 @@
     "Gemi ve Deniz Teknolojisi Mühendisliği": {
       "fakulte": "Gemi İnşaatı ve Deniz Bilimleri Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 6,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 5,
+            "yerlesen": 1,
+            "tavan": 3.09,
+            "taban": 3.09
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 7,
@@ -4914,6 +5520,30 @@
     "Matematik Mühendisliği": {
       "fakulte": "Fen - Edebiyat Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": [
+            {
+              "kontenjan": 5,
+              "yerlesen": 5,
+              "tavan": 3.91,
+              "taban": 3.64,
+              "aciklama": "ECNE, programların dışındaki öğrenciler"
+            },
+            {
+              "kontenjan": 1,
+              "yerlesen": 1,
+              "tavan": 3.83,
+              "taban": 3.83,
+              "aciklama": "ECNE, programları öğrenciler"
+            }
+          ],
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "tavan": 3.84,
+            "taban": 3.75
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": [
             {
@@ -5142,6 +5772,20 @@
     "Fizik Mühendisliği": {
       "fakulte": "Fen - Edebiyat Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 6,
+            "yerlesen": 3,
+            "tavan": 3.67,
+            "taban": 3.03
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 1,
+            "tavan": 3.71,
+            "taban": 3.71
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 3,
@@ -5357,6 +6001,20 @@
     "Kimya": {
       "fakulte": "Fen - Edebiyat Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 7,
+            "yerlesen": 1,
+            "tavan": 3.37,
+            "taban": 3.37
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 5,
+            "yerlesen": 3,
+            "tavan": 3.17,
+            "taban": 3.07
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 6,
@@ -5569,9 +6227,103 @@
         }
       }
     },
+    "Matematik": {
+      "fakulte": "Fen - Edebiyat Fakültesi",
+      "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": [
+            {
+              "kontenjan": 20,
+              "yerlesen": 18,
+              "tavan": 1.01859,
+              "taban": 0.79417,
+              "aciklama": "MAT,MATE, programların dışındaki öğrenciler"
+            },
+            {
+              "kontenjan": 5,
+              "yerlesen": 5,
+              "tavan": 0.99426,
+              "taban": 0.91572,
+              "aciklama": "MAT,MATE, programları öğrenciler"
+            }
+          ],
+          "5.Yarıyıl": [
+            {
+              "kontenjan": 10,
+              "yerlesen": 8,
+              "tavan": 0.98977,
+              "taban": 0.81199,
+              "aciklama": "MAT,MATE, programların dışındaki öğrenciler"
+            },
+            {
+              "kontenjan": 5,
+              "yerlesen": 5,
+              "tavan": 0.94939,
+              "taban": 0.90548,
+              "aciklama": "MAT,MATE, programları öğrenciler"
+            }
+          ]
+        }
+      },
+      "puan_turu": "degerlendirme"
+    },
+    "Fizik": {
+      "fakulte": "Fen - Edebiyat Fakültesi",
+      "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": [
+            {
+              "kontenjan": 20,
+              "yerlesen": 4,
+              "tavan": 1.026,
+              "taban": 0.97948,
+              "aciklama": "FIZ,FIZE, programların dışındaki öğrenciler"
+            },
+            {
+              "kontenjan": 5,
+              "yerlesen": 3,
+              "tavan": 0.97813,
+              "taban": 0.90525,
+              "aciklama": "FIZ,FIZE, programları öğrenciler"
+            }
+          ],
+          "5.Yarıyıl": [
+            {
+              "kontenjan": 10,
+              "yerlesen": 7,
+              "tavan": 0.8988,
+              "taban": 0.80099,
+              "aciklama": "FIZ,FIZE, programların dışındaki öğrenciler"
+            },
+            {
+              "kontenjan": 5,
+              "yerlesen": 3,
+              "tavan": 0.96634,
+              "taban": 0.9334,
+              "aciklama": "FIZ,FIZE, programları öğrenciler"
+            }
+          ]
+        }
+      },
+      "puan_turu": "degerlendirme"
+    },
     "Moleküler Biyoloji ve Genetik": {
       "fakulte": "Fen - Edebiyat Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 6,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "tavan": 3.69,
+            "taban": 3.11
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 6,
@@ -5787,6 +6539,20 @@
     "Uçak Mühendisliği": {
       "fakulte": "Uçak ve Uzay Bilimleri Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 5,
+            "yerlesen": 5,
+            "tavan": 3.82,
+            "taban": 3.7
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 4,
+            "tavan": 3.86,
+            "taban": 3.42
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 7,
@@ -6002,6 +6768,20 @@
     "Uzay Mühendisliği": {
       "fakulte": "Uçak ve Uzay Bilimleri Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 5,
+            "yerlesen": 5,
+            "tavan": 3.95,
+            "taban": 3.6
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "tavan": 3.66,
+            "taban": 3.45
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 6,
@@ -6217,6 +6997,20 @@
     "İklim Bilimi ve Meteoroloji Mühendisliği": {
       "fakulte": "Uçak ve Uzay Bilimleri Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 5,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 4,
@@ -6234,8 +7028,22 @@
       }
     },
     "Müzik Teorisi": {
-      "fakulte": "Türk Musikisi Devlet Konservatuarı",
+      "fakulte": "Türk Musikisi Devlet Konservatuvarı",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 2,
@@ -6449,8 +7257,22 @@
       }
     },
     "Ses Eğitimi": {
-      "fakulte": "Türk Musikisi Devlet Konservatuarı",
+      "fakulte": "Türk Musikisi Devlet Konservatuvarı",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 2,
@@ -6666,6 +7488,14 @@
     "Bestecilik": {
       "fakulte": "Türk Musikisi Devlet Konservatuvarı",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 1,
@@ -6735,6 +7565,20 @@
     "Müzik Teknolojisi": {
       "fakulte": "Türk Musikisi Devlet Konservatuvarı",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 2,
@@ -6808,8 +7652,22 @@
       }
     },
     "Müzikoloji": {
-      "fakulte": "Türk Musikisi Devlet Konservatuarı",
+      "fakulte": "Türk Musikisi Devlet Konservatuvarı",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 1,
@@ -7025,6 +7883,20 @@
     "Tekstil Mühendisliği": {
       "fakulte": "Tekstil Teknolojileri ve Tasarımı Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 5,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 6,
@@ -7226,6 +8098,20 @@
     "Bilgisayar Mühendisliği": {
       "fakulte": "Bilgisayar ve Bilişim Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 16,
+            "yerlesen": 16,
+            "tavan": 4,
+            "taban": 3.45
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "tavan": 3.93,
+            "taban": 3.73
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 14,
@@ -7441,6 +8327,20 @@
     "Yapay Zeka ve Veri Mühendisliği": {
       "fakulte": "Bilgisayar ve Bilişim Fakültesi",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 6,
+            "yerlesen": 6,
+            "tavan": 3.91,
+            "taban": 3.74
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "tavan": 3.69,
+            "taban": 3.69
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 6,
@@ -7500,8 +8400,22 @@
       }
     },
     "İTÜ-KKTC Gemi İnşaatı ve Gemi Makineleri Mühendisliği": {
-      "fakulte": "İTÜ-KKTC",
+      "fakulte": "İTÜ-KKTC Eğitim-Araştırma Yerleşkeleri",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 4,
@@ -7547,8 +8461,22 @@
       }
     },
     "İTÜ-KKTC Gemi Makinaları İşletme Mühendisliği": {
-      "fakulte": "İTÜ-KKTC",
+      "fakulte": "İTÜ-KKTC Eğitim-Araştırma Yerleşkeleri",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 4,
@@ -7594,8 +8522,22 @@
       }
     },
     "İTÜ-KKTC Deniz Ulaştırma İşletme Mühendisliği": {
-      "fakulte": "İTÜ-KKTC",
+      "fakulte": "İTÜ-KKTC Eğitim-Araştırma Yerleşkeleri",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 5,
@@ -7641,8 +8583,22 @@
       }
     },
     "İTÜ-KKTC Mimarlık": {
-      "fakulte": "İTÜ-KKTC",
+      "fakulte": "İTÜ-KKTC Eğitim-Araştırma Yerleşkeleri",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "tavan": 3.16,
+            "taban": 3.16
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 2,
@@ -7668,8 +8624,22 @@
       }
     },
     "İTÜ-KKTC Bilgisayar Mühendisliği": {
-      "fakulte": "İTÜ-KKTC",
+      "fakulte": "İTÜ-KKTC Eğitim-Araştırma Yerleşkeleri",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 2,
@@ -7701,8 +8671,22 @@
       }
     },
     "İTÜ-KKTC Ekonomi ve Finans": {
-      "fakulte": "İTÜ-KKTC",
+      "fakulte": "İTÜ-KKTC Eğitim-Araştırma Yerleşkeleri",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 2,
@@ -7734,8 +8718,22 @@
       }
     },
     "İTÜ-KKTC Elektrik Elektronik Mühendisliği": {
-      "fakulte": "İTÜ-KKTC",
+      "fakulte": "İTÜ-KKTC Eğitim-Araştırma Yerleşkeleri",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 2,
@@ -7761,8 +8759,16 @@
       }
     },
     "İTÜ-KKTC Denizcilik İşletmeleri Yönetimi": {
-      "fakulte": "İTÜ-KKTC",
+      "fakulte": "İTÜ-KKTC Eğitim-Araştırma Yerleşkeleri",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 2,
@@ -7794,8 +8800,16 @@
       }
     },
     "İTÜ-KKTC İç Mimarlık": {
-      "fakulte": "İTÜ-KKTC",
+      "fakulte": "İTÜ-KKTC Eğitim-Araştırma Yerleşkeleri",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 1,
@@ -7821,8 +8835,22 @@
       }
     },
     "İTÜ-KKTC Endüstri Mühendisliği": {
-      "fakulte": "İTÜ-KKTC",
+      "fakulte": "İTÜ-KKTC Eğitim-Araştırma Yerleşkeleri",
       "istatistikler": {
+        "2026-2027": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 0,
+            "tavan": null,
+            "taban": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "tavan": 3.07,
+            "taban": 3.07
+          }
+        },
         "2025-2026": {
           "3.Yarıyıl": {
             "kontenjan": 3,
@@ -8392,7 +9420,7 @@
       }
     },
     "İTÜ-KKTC Gemi İnşaatı ve Gemi Makineleri Mühendisliği (% 100 İngilizce)": {
-      "fakulte": "İTÜ-KKTC",
+      "fakulte": "İTÜ-KKTC Eğitim-Araştırma Yerleşkeleri",
       "istatistikler": {
         "2024-2025": {
           "3.Yarıyıl": {
@@ -8411,7 +9439,7 @@
       }
     },
     "İTÜ-KKTC Gemi Makinaları İşletme Mühendisliği (% 100 İngilizce)": {
-      "fakulte": "İTÜ-KKTC",
+      "fakulte": "İTÜ-KKTC Eğitim-Araştırma Yerleşkeleri",
       "istatistikler": {
         "2024-2025": {
           "3.Yarıyıl": {
@@ -8430,7 +9458,7 @@
       }
     },
     "İTÜ-KKTC Deniz Ulaştırma İşletme Mühendisliği (% 100 İngilizce)": {
-      "fakulte": "İTÜ-KKTC",
+      "fakulte": "İTÜ-KKTC Eğitim-Araştırma Yerleşkeleri",
       "istatistikler": {
         "2024-2025": {
           "3.Yarıyıl": {
@@ -8449,7 +9477,7 @@
       }
     },
     "İTÜ-KKTC Mimarlık (% 100 İngilizce)": {
-      "fakulte": "İTÜ-KKTC",
+      "fakulte": "İTÜ-KKTC Eğitim-Araştırma Yerleşkeleri",
       "istatistikler": {
         "2024-2025": {
           "3.Yarıyıl": {
@@ -8468,7 +9496,7 @@
       }
     },
     "İTÜ-KKTC Bilgisayar Mühendisliği (% 100 İngilizce)": {
-      "fakulte": "İTÜ-KKTC",
+      "fakulte": "İTÜ-KKTC Eğitim-Araştırma Yerleşkeleri",
       "istatistikler": {
         "2024-2025": {
           "3.Yarıyıl": {
@@ -8487,7 +9515,7 @@
       }
     },
     "İTÜ-KKTC Ekonomi ve Finans (% 100 İngilizce)": {
-      "fakulte": "İTÜ-KKTC",
+      "fakulte": "İTÜ-KKTC Eğitim-Araştırma Yerleşkeleri",
       "istatistikler": {
         "2024-2025": {
           "3.Yarıyıl": {
@@ -8506,7 +9534,7 @@
       }
     },
     "İTÜ-KKTC Elektrik Elektronik Mühendisliği (% 100 İngilizce)": {
-      "fakulte": "İTÜ-KKTC",
+      "fakulte": "İTÜ-KKTC Eğitim-Araştırma Yerleşkeleri",
       "istatistikler": {
         "2024-2025": {
           "3.Yarıyıl": {
@@ -8525,7 +9553,7 @@
       }
     },
     "İTÜ-KKTC Denizcilik İşletmeleri Yönetimi (% 100 İngilizce)": {
-      "fakulte": "İTÜ-KKTC",
+      "fakulte": "İTÜ-KKTC Eğitim-Araştırma Yerleşkeleri",
       "istatistikler": {
         "2024-2025": {
           "3.Yarıyıl": {
@@ -8544,7 +9572,7 @@
       }
     },
     "İTÜ-KKTC İç Mimarlık (% 100 İngilizce)": {
-      "fakulte": "İTÜ-KKTC",
+      "fakulte": "İTÜ-KKTC Eğitim-Araştırma Yerleşkeleri",
       "istatistikler": {
         "2024-2025": {
           "3.Yarıyıl": {
@@ -8563,7 +9591,7 @@
       }
     },
     "İTÜ-KKTC Endüstri Mühendisliği (% 100 İngilizce)": {
-      "fakulte": "İTÜ-KKTC",
+      "fakulte": "İTÜ-KKTC Eğitim-Araştırma Yerleşkeleri",
       "istatistikler": {
         "2024-2025": {
           "3.Yarıyıl": {
@@ -8582,7 +9610,7 @@
       }
     },
     "Gemi Makinaları İşletme Mühendisliği": {
-      "fakulte": "İTÜ-KKTC",
+      "fakulte": "İTÜ Kuzey Kıbrıs",
       "istatistikler": {
         "2021-2022": {
           "3.Yarıyıl": {
@@ -8657,7 +9685,7 @@
       }
     },
     "Deniz Ulaştırma İşletme Mühendisliği": {
-      "fakulte": "İTÜ-KKTC",
+      "fakulte": "İTÜ Kuzey Kıbrıs",
       "istatistikler": {
         "2021-2022": {
           "3.Yarıyıl": {
@@ -8877,7 +9905,7 @@
       }
     },
     "Kompozisyon": {
-      "fakulte": "Türk Musikisi Devlet Konservatuarı",
+      "fakulte": "Türk Musikisi Devlet Konservatuvarı",
       "istatistikler": {
         "2020-2021": {
           "3.Yarıyıl": {
@@ -8994,7 +10022,7 @@
       }
     },
     "Müzik Teknolojileri": {
-      "fakulte": "Türk Musikisi Devlet Konservatuarı",
+      "fakulte": "Türk Musikisi Devlet Konservatuvarı",
       "istatistikler": {
         "2020-2021": {
           "3.Yarıyıl": {
@@ -9100,137 +10128,6 @@
             "yerlesen": 0,
             "tavan": null,
             "taban": null
-          },
-          "5.Yarıyıl": {
-            "kontenjan": null,
-            "yerlesen": 0,
-            "tavan": null,
-            "taban": null
-          }
-        }
-      }
-    },
-    "İmalat Mühendisliği": {
-      "fakulte": "Makina Fakültesi",
-      "istatistikler": {
-        "2019-2020": {
-          "3.Yarıyıl": {
-            "kontenjan": null,
-            "yerlesen": 2,
-            "tavan": 3.3,
-            "taban": 3.14
-          },
-          "5.Yarıyıl": {
-            "kontenjan": null,
-            "yerlesen": 1,
-            "tavan": 3.14,
-            "taban": 3.14
-          }
-        },
-        "2018-2019": {
-          "3.Yarıyıl": {
-            "kontenjan": null,
-            "yerlesen": 3,
-            "tavan": 3.4,
-            "taban": 3.14
-          },
-          "5.Yarıyıl": {
-            "kontenjan": null,
-            "yerlesen": 1,
-            "tavan": 3.24,
-            "taban": 3.24
-          }
-        },
-        "2017-2018": {
-          "3.Yarıyıl": {
-            "kontenjan": null,
-            "yerlesen": 2,
-            "tavan": 3.29,
-            "taban": 3.23
-          },
-          "5.Yarıyıl": {
-            "kontenjan": null,
-            "yerlesen": 0,
-            "tavan": null,
-            "taban": null
-          }
-        },
-        "2016-2017": {
-          "3.Yarıyıl": {
-            "kontenjan": null,
-            "yerlesen": 0,
-            "tavan": null,
-            "taban": null
-          },
-          "5.Yarıyıl": {
-            "kontenjan": null,
-            "yerlesen": 0,
-            "tavan": null,
-            "taban": null
-          }
-        },
-        "2015-2016": {
-          "3.Yarıyıl": {
-            "kontenjan": null,
-            "yerlesen": 2,
-            "tavan": 3.2,
-            "taban": 3.01
-          },
-          "5.Yarıyıl": {
-            "kontenjan": null,
-            "yerlesen": 1,
-            "tavan": 3.01,
-            "taban": 3.01
-          }
-        },
-        "2014-2015": {
-          "3.Yarıyıl": {
-            "kontenjan": null,
-            "yerlesen": 3,
-            "tavan": 3.23,
-            "taban": 3.16
-          },
-          "5.Yarıyıl": {
-            "kontenjan": null,
-            "yerlesen": 1,
-            "tavan": 3.22,
-            "taban": 3.22
-          }
-        },
-        "2013-2014": {
-          "3.Yarıyıl": {
-            "kontenjan": null,
-            "yerlesen": 0,
-            "tavan": null,
-            "taban": null
-          },
-          "5.Yarıyıl": {
-            "kontenjan": null,
-            "yerlesen": 2,
-            "tavan": 3.45,
-            "taban": 3.3
-          }
-        },
-        "2012-2013": {
-          "3.Yarıyıl": {
-            "kontenjan": null,
-            "yerlesen": 2,
-            "tavan": 3.09,
-            "taban": 3.08
-          },
-          "5.Yarıyıl": {
-            "kontenjan": null,
-            "yerlesen": 2,
-            "tavan": 3.34,
-            "taban": 3.22
-          }
-        },
-        "2011-2012": {
-          "3.Yarıyıl": {
-            "kontenjan": null,
-            "yerlesen": 2,
-            "tavan": 3.43,
-            "taban": 3.25
           },
           "5.Yarıyıl": {
             "kontenjan": null,
@@ -9470,6 +10367,7 @@
   },
   "meta": {
     "donemler": [
+      "2026-2027",
       "2025-2026",
       "2024-2025",
       "2023-2024",
@@ -9486,8 +10384,16 @@
       "2012-2013",
       "2011-2012"
     ],
-    "guncelleme_tarihi": "2026-01-30",
+    "guncelleme_tarihi": "2026-10-11",
+    "kaynak_bilgileri": {
+      "202710": {
+        "url": "https://www.sis.itu.edu.tr/TR/ogrenci/lisans/cap-yandal-yatay-gecis/202710/cap-taban-tavan-202710.html",
+        "yil": "2026-2027",
+        "baslik": "2026-2027 Eğitim-Öğretim Yılı Asil Listesi Lisans ÇİFT ANADAL PROGRAMI (ÇAP) Taban Tavan Değerlendirme Puanları"
+      }
+    },
     "veri_kaynaklari": {
+      "2026-2027": "cap-taban-tavan-202710.html",
       "2025-2026": "cap-taban-tavan-202610.php",
       "2024-2025": "202510_cap_taban_tavan_puanlari.htm",
       "2023-2024": "202410_cap_taban_tavan_puanlari.htm",

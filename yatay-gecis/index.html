@@ -7,13 +7,19 @@
   <title>İTÜ Yatay Geçiş AGNO Hesaplayıcı | İTÜ Atlas</title>
   <meta name="description" content="İTÜ Yatay Geçiş (Kurum İçi) AGNO hesaplama aracı ve geçmiş yılların taban puanları.">
   <meta name="keywords" content="itüatlas, itü yatay geçiş, itü yatay geçiş taban puanları, itü yatay geçiş sonuçları, itü yatay geçiş puanları, itü yatay geçiş geçmiş seneler, itü yatay geçiş ortalama hesaplama, itü agno hesaplama, kurum içi yatay geçiş, yatay geçiş hesaplama robotu">
+  <script src="../shared/theme.js"></script>
+<link rel="stylesheet" href="../shared/fonts.css">
   <link rel="stylesheet" href="../shared/style.css">
 </head>
 
 <body>
   <div class="container">
+    <div class="detail-toolbar">
+      <a class="brand" href="../">İTÜ <strong>Atlas</strong></a>
+      <button type="button" class="theme-switch" data-theme-toggle role="switch" aria-checked="false" aria-label="Koyu temaya geç" title="Koyu temaya geç"><span aria-hidden="true"></span></button>
+    </div>
     <header>
-      <a href="../" class="home-link">←</a>
+      <a href="../" class="home-link" aria-label="Ana sayfaya dön">←</a>
       <div class="header-content">
         <h1>İTÜ Yatay Geçiş AGNO Hesaplayıcı</h1>
         <p>YKS puanınıza göre gereken AGNO'yu hesaplayın</p>
@@ -34,6 +40,7 @@
         <div class="input-group">
           <label for="yksYil">YKS Yılı</label>
           <select id="yksYil">
+            <option value="2026">2026</option>
             <option value="2025">2025</option>
             <option value="2024">2024</option>
             <option value="2023">2023</option>
@@ -100,8 +107,9 @@
         <p>Bu araç, hedeflediğiniz bölümün geçmiş yıllardaki yatay geçiş taban ve tavan değerlendirme puanlarını
           görmenizi sağlar. Ayrıca bu puan aralığına ulaşabilmeniz için, kendi YKS puanınıza göre <strong>yapmanız
             gereken minimum AGNO (not ortalaması)</strong> değerini hesaplar.</p>
-        <p class="note">Not: Hesaplamalar geçmiş yıl verilerine dayanır ve fikir verme amaçlıdır. Resmi bir
-          bağlayıcılığı yoktur.</p>
+        <p class="note">Hesaplanan AGNO, seçtiğiniz YKS yılındaki hedef bölüm taban puanıyla geçmiş yatay geçiş
+          değerlendirme puanına ulaşmanız için gereken ortalamadır. Gelecek başvurunun kesin kabul ortalaması
+          değildir; başvuru koşulları ve kontenjanlar ayrıca değerlendirilir.</p>
       </div>
     </div>
   </div>

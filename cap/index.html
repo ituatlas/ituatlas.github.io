@@ -7,13 +7,19 @@
   <title>İTÜ Çift Anadal Programları (ÇAP) Taban ve Tavan Not Ortalamaları | İTÜ Atlas</title>
   <meta name="description" content="İTÜ Çift Anadal Programı (ÇAP) geçmiş yılların taban-tavan not ortalamaları">
   <meta name="keywords" content="itüatlas, itü çap, itü çap sonuçları, itü çap puanları, itü çap taban puanları, itü çap geçmiş seneler, itü çift anadal, çift anadal programı, itü çap ortalamaları">
+  <script src="../shared/theme.js"></script>
+<link rel="stylesheet" href="../shared/fonts.css">
   <link rel="stylesheet" href="../shared/style.css">
 </head>
 
 <body class="cap-page">
   <div class="container">
+    <div class="detail-toolbar">
+      <a class="brand" href="../">İTÜ <strong>Atlas</strong></a>
+      <button type="button" class="theme-switch" data-theme-toggle role="switch" aria-checked="false" aria-label="Koyu temaya geç" title="Koyu temaya geç"><span aria-hidden="true"></span></button>
+    </div>
     <header>
-      <a href="../" class="home-link">←</a>
+      <a href="../" class="home-link" aria-label="Ana sayfaya dön">←</a>
       <div class="header-content">
         <h1>İTÜ Çift Anadal Programları (ÇAP) Taban ve Tavan Not Ortalamaları</h1>
       </div>
@@ -50,6 +56,16 @@
     </footer>
   </div>
 
+
+  <div id="formulaModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="formulaModalTitle">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 id="formulaModalTitle">ÇAP değerlendirme kuralı</h2>
+        <button type="button" id="formulaModalClose" class="close-btn" aria-label="Bilgi penceresini kapat" onclick="closeModal('formulaModal')">&times;</button>
+      </div>
+      <div id="formulaModalBody" class="modal-body"></div>
+    </div>
+  </div>
 
   <!-- İletişim Modalı -->
   <div id="contactModal" class="modal">

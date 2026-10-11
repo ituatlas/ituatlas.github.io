@@ -48,10 +48,10 @@ function hesapla() {
 }
 
 function hesaplaGNO(yatayGecisTabanPuani, yksPuan, osymTaban) {
-  if (!osymTaban || osymTaban === 0) return null;
+  if (!Number.isFinite(osymTaban) || osymTaban <= 0 || !Number.isFinite(yatayGecisTabanPuani)) return null;
 
-  // Formül: Puan = (YKS / ÖSYM_Taban) * 0.40 + (GNO / 4 * 100) * 0.60
-  // Tersine: GNO = ((Puan - (YKS / ÖSYM_Taban) * 0.40) / 0.60) * 4 / 100
+  // Puan = (YKS / ÖSYM_Taban) * 0.40 + (GNO / 4) * 0.60
+  // GNO = (Puan - (YKS / ÖSYM_Taban) * 0.40) * 4 / 0.60
   const yksKatkisi = (yksPuan / osymTaban) * 0.40;
   const gnoKatkisi = yatayGecisTabanPuani - yksKatkisi;
   const gno = (gnoKatkisi / 0.60) * 4;
@@ -101,15 +101,15 @@ function renderPrograms() {
       `;
   let count = 0;
 
-  // Programları 2025 YKS puanına göre sırala (yüksekten düşüğe)
+  // Programları seçilen YKS yılının taban puanına göre sırala.
   const sortedPrograms = Object.entries(programlar)
     .filter(([programAdi, programData]) => {
       // Arama filtresi
       return !searchTerm || programAdi.toLowerCase().includes(searchTerm);
     })
     .sort(([, dataA], [, dataB]) => {
-      const puanA = dataA.osym_taban_puanlari[2025] || 0;
-      const puanB = dataB.osym_taban_puanlari[2025] || 0;
+      const puanA = dataA.osym_taban_puanlari[currentYksYil] || 0;
+      const puanB = dataB.osym_taban_puanlari[currentYksYil] || 0;
       return puanB - puanA; // Yüksekten düşüğe sıralama
     });
 
@@ -272,7 +272,7 @@ function createDataRow(yil, yariyil, data, osymTaban) {
 
   if (gnoTaban !== null && gnoTavan !== null) {
     const minGno = Math.max(0, Math.min(gnoTaban, gnoTavan));
-    const maxGno = Math.min(4, Math.max(gnoTaban, gnoTavan));
+    const maxGno = Math.max(gnoTaban, gnoTavan);
 
     if (gnoTaban > 4 && gnoTavan > 4) {
       minGnoDisplay = '>4.00';
@@ -287,8 +287,8 @@ function createDataRow(yil, yariyil, data, osymTaban) {
     } else {
       minGnoDisplay = minGno.toFixed(2);
       if (maxGno > 4) {
-        maxGnoDisplay = '4.00+';
-        maxClass = 'gno-warning';
+        maxGnoDisplay = '>4.00';
+        maxClass = 'gno-error';
       } else {
         maxGnoDisplay = maxGno.toFixed(2);
       }
@@ -296,8 +296,8 @@ function createDataRow(yil, yariyil, data, osymTaban) {
       if (!maxClass) maxClass = '';
     }
   } else {
-    minGnoDisplay = 'N/A';
-    maxGnoDisplay = 'N/A';
+    minGnoDisplay = 'Veri yok';
+    maxGnoDisplay = 'Veri yok';
     minClass = 'gno-warning';
     maxClass = 'gno-warning';
   }

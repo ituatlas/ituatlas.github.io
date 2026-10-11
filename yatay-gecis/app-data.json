@@ -6,7 +6,8 @@
         "2022": 440.81624,
         "2023": 452.46099,
         "2024": 437.87862,
-        "2025": 454.61781
+        "2025": 454.61781,
+        "2026": 474.12531
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -44,6 +45,14 @@
             "taban": 0.80037,
             "tavan": 0.87499
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 5,
+            "yerlesen": 5,
+            "taban": 0.85598,
+            "tavan": 0.90884
+          }
         }
       }
     },
@@ -53,7 +62,8 @@
         "2022": 467.11374,
         "2023": 476.08534,
         "2024": 460.25531,
-        "2025": 470.02755
+        "2025": 470.02755,
+        "2026": 484.81909
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -91,16 +101,25 @@
             "taban": 0.80671,
             "tavan": 0.94272
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 4,
+            "taban": 0.84185,
+            "tavan": 0.91225
+          }
         }
       }
     },
     "Geomatik Mühendisliği (% 30 İngilizce)": {
       "fakulte": "İnşaat Fakültesi",
       "osym_taban_puanlari": {
-        "2022": null,
-        "2023": null,
+        "2022": 390.05567,
+        "2023": 412.65402,
         "2024": 390.0292,
-        "2025": 415.76406
+        "2025": 415.76406,
+        "2026": 448.51686
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -136,10 +155,11 @@
     "Geomatik Mühendisliği(% 100 İngilizce)": {
       "fakulte": "İnşaat Fakültesi",
       "osym_taban_puanlari": {
-        "2022": null,
-        "2023": null,
+        "2022": 408.88418,
+        "2023": 424.19812,
         "2024": 400.56837,
-        "2025": 424.08021
+        "2025": 424.08021,
+        "2026": 449.9238
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -178,7 +198,8 @@
         "2022": 432.58718,
         "2023": 441.72178,
         "2024": 422.30497,
-        "2025": 442.46797
+        "2025": 442.46797,
+        "2026": 462.35945
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -222,6 +243,20 @@
             "taban": null,
             "tavan": null
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 6,
+            "yerlesen": 3,
+            "taban": 0.79698,
+            "tavan": 0.84618
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
         }
       }
     },
@@ -231,7 +266,8 @@
         "2022": 439.0477,
         "2023": 449.22366,
         "2024": 430.28816,
-        "2025": 447.68379
+        "2025": 447.68379,
+        "2026": 463.86852
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -275,6 +311,20 @@
             "taban": null,
             "tavan": null
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 2,
+            "taban": 0.85763,
+            "tavan": 0.87715
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
         }
       }
     },
@@ -284,7 +334,8 @@
         "2022": 469.75174,
         "2023": 472.04742,
         "2024": 448.09306,
-        "2025": 454.83317
+        "2025": 454.83317,
+        "2026": 468.29937
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -328,6 +379,20 @@
             "taban": 0.85811,
             "tavan": 0.88152
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.88135,
+            "tavan": 0.91673
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.8905,
+            "tavan": 0.89592
+          }
         }
       }
     },
@@ -337,7 +402,8 @@
         "2022": 485.78822,
         "2023": 485.23127,
         "2024": 462.62975,
-        "2025": 462.12582
+        "2025": 462.12582,
+        "2026": 471.81557
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -381,6 +447,20 @@
             "taban": 0.86375,
             "tavan": 0.86375
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.86091,
+            "tavan": 0.88276
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.8388,
+            "tavan": 0.8388
+          }
         }
       }
     },
@@ -390,7 +470,8 @@
         "2022": 370.76367,
         "2023": 388.55661,
         "2024": 368.06968,
-        "2025": 388.53446
+        "2025": 388.53446,
+        "2026": 413.7936
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -424,6 +505,20 @@
         "202610": {
           "3.Yarıyıl": {
             "kontenjan": 4,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
             "yerlesen": 0,
             "taban": null,
             "tavan": null
@@ -443,7 +538,8 @@
         "2022": 386.00559,
         "2023": 398.11504,
         "2024": 374.09303,
-        "2025": 392.13322
+        "2025": 392.13322,
+        "2026": 418.97402
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -487,6 +583,20 @@
             "taban": null,
             "tavan": null
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 1,
+            "taban": 0.87893,
+            "tavan": 0.87893
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
         }
       }
     },
@@ -496,7 +606,8 @@
         "2022": 463.51345,
         "2023": 466.90285,
         "2024": 443.27708,
-        "2025": 453.63751
+        "2025": 453.63751,
+        "2026": 470.40748
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -540,6 +651,20 @@
             "taban": null,
             "tavan": null
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.89747,
+            "tavan": 0.89747
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
         }
       }
     },
@@ -549,7 +674,8 @@
         "2022": 435.03197,
         "2023": 436.81096,
         "2024": 408.94598,
-        "2025": 425.01131
+        "2025": 425.01131,
+        "2026": 437.10699
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -593,6 +719,20 @@
             "taban": 0.85314,
             "tavan": 0.85314
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 1,
+            "taban": 0.83401,
+            "tavan": 0.83401
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.86235,
+            "tavan": 0.86235
+          }
         }
       }
     },
@@ -602,7 +742,8 @@
         "2022": 389.34062,
         "2023": 401.10923,
         "2024": 375.38029,
-        "2025": 391.58095
+        "2025": 391.58095,
+        "2026": 410.18799
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -646,6 +787,20 @@
             "taban": null,
             "tavan": null
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
         }
       }
     },
@@ -655,7 +810,8 @@
         "2022": 507.3,
         "2023": 515.67219,
         "2024": 508.63864,
-        "2025": 513.03357
+        "2025": 513.03357,
+        "2026": 520.66433
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -699,6 +855,14 @@
             "taban": null,
             "tavan": null
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 8,
+            "yerlesen": 8,
+            "taban": 0.90213,
+            "tavan": 0.97104
+          }
         }
       }
     },
@@ -708,7 +872,8 @@
         "2022": 525.09606,
         "2023": 530.13833,
         "2024": 522.83058,
-        "2025": 525.1301
+        "2025": 525.1301,
+        "2026": 532.42209
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -752,6 +917,20 @@
             "taban": 0.88935,
             "tavan": 0.92528
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 4,
+            "taban": 0.95773,
+            "tavan": 0.97634
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 6,
+            "yerlesen": 6,
+            "taban": 0.86847,
+            "tavan": 0.96049
+          }
         }
       }
     },
@@ -761,7 +940,8 @@
         "2022": 532.11871,
         "2023": 535.1846,
         "2024": 529.41707,
-        "2025": 528.92344
+        "2025": 528.92344,
+        "2026": 536.53327
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -805,6 +985,20 @@
             "taban": 0.81151,
             "tavan": 0.81151
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.96279,
+            "tavan": 0.98637
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 3,
+            "taban": 0.81275,
+            "tavan": 0.91239
+          }
         }
       }
     },
@@ -814,7 +1008,8 @@
         "2022": 502.58555,
         "2023": 514.73375,
         "2024": 507.81846,
-        "2025": 510.72492
+        "2025": 510.72492,
+        "2026": 518.11558
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -858,6 +1053,20 @@
             "taban": null,
             "tavan": null
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 6,
+            "yerlesen": 6,
+            "taban": 0.90183,
+            "tavan": 0.96223
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
         }
       }
     },
@@ -867,7 +1076,8 @@
         "2022": 512.58077,
         "2023": 520.68008,
         "2024": 510.86388,
-        "2025": 512.96624
+        "2025": 512.96624,
+        "2026": 520.59783
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -911,16 +1121,31 @@
             "taban": null,
             "tavan": null
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.90653,
+            "tavan": 0.91949
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
         }
       }
     },
     "Kontrol ve Otomasyon Mühendisliği (% 30 İngilizce)": {
       "fakulte": "Elektrik - Elektronik Fakültesi",
       "osym_taban_puanlari": {
-        "2022": null,
-        "2023": null,
-        "2024": null,
-        "2025": 517.75196
+        "2022": 516.77022,
+        "2023": 524.44174,
+        "2024": 516.79053,
+        "2025": 517.75196,
+        "2026": 526.2054
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -964,16 +1189,31 @@
             "taban": 0.86003,
             "tavan": 0.87063
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.93687,
+            "tavan": 0.95693
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
         }
       }
     },
     "Kontrol ve Otomasyon Mühendisliği (% 100 İngilizce)": {
       "fakulte": "Elektrik - Elektronik Fakültesi",
       "osym_taban_puanlari": {
-        "2022": null,
-        "2023": null,
-        "2024": null,
-        "2025": 518.52409
+        "2022": 519.53652,
+        "2023": 526.312,
+        "2024": 518.01614,
+        "2025": 518.52409,
+        "2026": 525.72123
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -1017,6 +1257,20 @@
             "taban": null,
             "tavan": null
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.93592,
+            "tavan": 0.95384
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 1,
+            "taban": 0.89743,
+            "tavan": 0.89743
+          }
         }
       }
     },
@@ -1026,7 +1280,8 @@
         "2022": 408.54702,
         "2023": 422.6284,
         "2024": 408.27262,
-        "2025": 431.56899
+        "2025": 431.56899,
+        "2026": 455.70102
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -1070,6 +1325,20 @@
             "taban": null,
             "tavan": null
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 1,
+            "taban": 0.91922,
+            "tavan": 0.91922
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
         }
       }
     },
@@ -1079,7 +1348,8 @@
         "2022": 392.14235,
         "2023": 411.51038,
         "2024": 392.16172,
-        "2025": 410.10025
+        "2025": 410.10025,
+        "2026": 437.33848
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -1122,6 +1392,20 @@
             "yerlesen": 0,
             "taban": null,
             "tavan": null
+          }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 4,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 1,
+            "taban": 0.81261,
+            "tavan": 0.81261
           }
         }
       }
@@ -1132,7 +1416,8 @@
         "2022": 378.11435,
         "2023": 401.9893,
         "2024": 389.72976,
-        "2025": 408.65198
+        "2025": 408.65198,
+        "2026": 436.87175
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -1164,6 +1449,20 @@
           }
         },
         "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202710": {
           "3.Yarıyıl": {
             "kontenjan": 3,
             "yerlesen": 0,
@@ -1185,7 +1484,8 @@
         "2022": 428.21417,
         "2023": 451.07706,
         "2024": 445.20194,
-        "2025": 466.87039
+        "2025": 466.87039,
+        "2026": 487.8229
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -1229,6 +1529,20 @@
             "taban": null,
             "tavan": null
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.8425,
+            "tavan": 0.87572
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
         }
       }
     },
@@ -1238,7 +1552,8 @@
         "2022": 367.60686,
         "2023": 398.68572,
         "2024": 392.79571,
-        "2025": 419.17729
+        "2025": 419.17729,
+        "2026": 449.42128
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -1291,7 +1606,8 @@
         "2022": 487.50891,
         "2023": 501.96303,
         "2024": 492.4426,
-        "2025": 496.82307
+        "2025": 496.82307,
+        "2026": 507.0523
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -1335,6 +1651,20 @@
             "taban": 0.81903,
             "tavan": 0.83787
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.91885,
+            "tavan": 0.94692
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 2,
+            "taban": 0.82622,
+            "tavan": 0.83062
+          }
         }
       }
     },
@@ -1344,7 +1674,8 @@
         "2022": 482.01974,
         "2023": 497.81029,
         "2024": 490.58027,
-        "2025": 493.98586
+        "2025": 493.98586,
+        "2026": 508.08115
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -1388,6 +1719,14 @@
             "taban": null,
             "tavan": null
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 5,
+            "yerlesen": 5,
+            "taban": 0.87335,
+            "tavan": 0.89172
+          }
         }
       }
     },
@@ -1397,7 +1736,8 @@
         "2022": 490.83578,
         "2023": 505.75196,
         "2024": 495.02299,
-        "2025": 498.72943
+        "2025": 498.72943,
+        "2026": 509.47051
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -1441,6 +1781,14 @@
             "taban": null,
             "tavan": null
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 5,
+            "yerlesen": 5,
+            "taban": 0.85676,
+            "tavan": 0.88855
+          }
         }
       }
     },
@@ -1450,7 +1798,8 @@
         "2022": 445.9529,
         "2023": 457.60725,
         "2024": 432.43606,
-        "2025": 447.32016
+        "2025": 447.32016,
+        "2026": 466.2852
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -1488,6 +1837,14 @@
             "taban": 0.82923,
             "tavan": 0.86775
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.84161,
+            "tavan": 0.89772
+          }
         }
       }
     },
@@ -1497,7 +1854,8 @@
         "2022": 514.34252,
         "2023": 523.3213,
         "2024": 513.52841,
-        "2025": 514.08138
+        "2025": 514.08138,
+        "2026": 521.52147
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -1541,6 +1899,14 @@
             "taban": null,
             "tavan": null
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 6,
+            "yerlesen": 6,
+            "taban": 0.91975,
+            "tavan": 0.95904
+          }
         }
       }
     },
@@ -1550,7 +1916,8 @@
         "2022": 523.74226,
         "2023": 529.98076,
         "2024": 519.84288,
-        "2025": 519.7489
+        "2025": 519.7489,
+        "2026": 525.05673
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -1594,6 +1961,20 @@
             "taban": null,
             "tavan": null
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.96325,
+            "tavan": 0.9822
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.89769,
+            "tavan": 0.89769
+          }
         }
       }
     },
@@ -1603,7 +1984,8 @@
         "2022": 528.81826,
         "2023": 534.14396,
         "2024": 524.32042,
-        "2025": 521.49444
+        "2025": 521.49444,
+        "2026": 526.98044
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -1647,6 +2029,20 @@
             "taban": 0.86642,
             "tavan": 0.86642
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.95919,
+            "tavan": 0.98397
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.89799,
+            "tavan": 0.89799
+          }
         }
       }
     },
@@ -1656,7 +2052,8 @@
         "2022": 480.66359,
         "2023": 487.49685,
         "2024": 475.94136,
-        "2025": 471.36296
+        "2025": 471.36296,
+        "2026": 484.88345
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -1700,6 +2097,20 @@
             "taban": 0.74001,
             "tavan": 0.88525
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.87656,
+            "tavan": 0.88086
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.86383,
+            "tavan": 0.86383
+          }
         }
       }
     },
@@ -1709,7 +2120,8 @@
         "2022": 477.81642,
         "2023": 491.43774,
         "2024": 486.45833,
-        "2025": 495.88219
+        "2025": 495.88219,
+        "2026": 509.37962
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -1753,6 +2165,20 @@
             "taban": 0.85454,
             "tavan": 0.89371
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.90382,
+            "tavan": 0.91477
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.76614,
+            "tavan": 0.8075
+          }
         }
       }
     },
@@ -1762,7 +2188,8 @@
         "2022": 430.87314,
         "2023": 454.516,
         "2024": 463.62883,
-        "2025": 486.14362
+        "2025": 486.14362,
+        "2026": 496.5484
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -1806,6 +2233,20 @@
             "taban": null,
             "tavan": null
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.88758,
+            "tavan": 0.92196
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
         }
       }
     },
@@ -1815,7 +2256,8 @@
         "2022": 511.66215,
         "2023": 522.96778,
         "2024": 517.55503,
-        "2025": 522.35951
+        "2025": 522.35951,
+        "2026": 529.92017
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -1853,6 +2295,20 @@
             "taban": 0.93717,
             "tavan": 0.99052
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.94985,
+            "tavan": 0.95094
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
         }
       }
     },
@@ -1862,7 +2318,8 @@
         "2022": 477.8529,
         "2023": 494.3693,
         "2024": 483.12088,
-        "2025": 492.48652
+        "2025": 492.48652,
+        "2026": 504.07554
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -1906,6 +2363,20 @@
             "taban": null,
             "tavan": null
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.93098,
+            "tavan": 0.96446
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.81645,
+            "tavan": 0.85472
+          }
         }
       }
     },
@@ -1915,7 +2386,8 @@
         "2022": 450.47952,
         "2023": 460.80478,
         "2024": 437.94028,
-        "2025": 451.03534
+        "2025": 451.03534,
+        "2026": 465.67825
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -1959,6 +2431,20 @@
             "taban": null,
             "tavan": null
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 1,
+            "taban": 0.92983,
+            "tavan": 0.92983
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
         }
       }
     },
@@ -1968,7 +2454,8 @@
         "2022": 496.13795,
         "2023": 500.47543,
         "2024": 479.58318,
-        "2025": 471.79154
+        "2025": 471.79154,
+        "2026": 483.89781
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -2012,6 +2499,14 @@
             "taban": null,
             "tavan": null
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.9633,
+            "tavan": 0.9633
+          }
         }
       }
     },
@@ -2021,7 +2516,8 @@
         "2022": 524.25167,
         "2023": 531.59839,
         "2024": 526.27204,
-        "2025": 528.30902
+        "2025": 528.30902,
+        "2026": 536.07827
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -2065,6 +2561,20 @@
             "taban": 0.82939,
             "tavan": 0.84385
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.97809,
+            "tavan": 0.99644
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 2,
+            "taban": 0.84297,
+            "tavan": 0.87415
+          }
         }
       }
     },
@@ -2074,7 +2584,8 @@
         "2022": 517.40975,
         "2023": 525.34128,
         "2024": 518.39828,
-        "2025": 520.37334
+        "2025": 520.37334,
+        "2026": 526.85187
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -2112,6 +2623,14 @@
             "taban": 0.91522,
             "tavan": 0.9221
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.95931,
+            "tavan": 0.9765
+          }
         }
       }
     },
@@ -2121,7 +2640,8 @@
         "2022": 418.51153,
         "2023": 432.85539,
         "2024": 417.86283,
-        "2025": 438.78269
+        "2025": 438.78269,
+        "2026": 464.01645
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -2160,7 +2680,8 @@
         "2022": 444.92616,
         "2023": 459.35746,
         "2024": 443.89739,
-        "2025": 457.66611
+        "2025": 457.66611,
+        "2026": 482.49916
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -2204,6 +2725,20 @@
             "taban": null,
             "tavan": null
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 2,
+            "taban": 0.80545,
+            "tavan": 0.89975
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
         }
       }
     },
@@ -2213,7 +2748,8 @@
         "2022": 442.32802,
         "2023": 455.40168,
         "2024": 436.15913,
-        "2025": 452.99272
+        "2025": 452.99272,
+        "2026": 476.14384
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -2257,6 +2793,20 @@
             "taban": null,
             "tavan": null
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 2,
+            "taban": 0.80983,
+            "tavan": 0.86213
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 2,
+            "yerlesen": 1,
+            "taban": 0.77936,
+            "tavan": 0.77936
+          }
         }
       }
     },
@@ -2266,7 +2816,8 @@
         "2022": 464.02787,
         "2023": 474.33188,
         "2024": 447.81947,
-        "2025": 445.2388
+        "2025": 445.2388,
+        "2026": 462.34513
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -2304,6 +2855,14 @@
             "taban": 0.82935,
             "tavan": 0.82935
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 1,
+            "taban": 0.79475,
+            "tavan": 0.79475
+          }
         }
       }
     },
@@ -2313,7 +2872,8 @@
         "2022": 539.22704,
         "2023": 542.06013,
         "2024": 536.3077,
-        "2025": 533.13588
+        "2025": 533.13588,
+        "2026": 533.67558
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -2357,6 +2917,20 @@
             "taban": 0.9557,
             "tavan": 0.9557
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.93829,
+            "tavan": 0.9696
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.96508,
+            "tavan": 0.96508
+          }
         }
       }
     },
@@ -2366,7 +2940,8 @@
         "2022": 536.37088,
         "2023": 539.20241,
         "2024": 533.26505,
-        "2025": 529.88486
+        "2025": 529.88486,
+        "2026": 530.1329
       },
       "yatay_gecis_istatistikleri": {
         "202410": {
@@ -2410,16 +2985,31 @@
             "taban": null,
             "tavan": null
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 3,
+            "taban": 0.91042,
+            "tavan": 0.92595
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.96184,
+            "tavan": 0.96184
+          }
         }
       }
     },
     "Harita Mühendisliği (%30 İngilizce)": {
       "fakulte": "İnşaat Fakültesi",
       "osym_taban_puanlari": {
-        "2022": null,
-        "2023": null,
+        "2022": 390.05567,
+        "2023": 412.65402,
         "2024": 390.0292,
-        "2025": 415.76406
+        "2025": 415.76406,
+        "2026": 448.51686
       },
       "yatay_gecis_istatistikleri": {
         "202610": {
@@ -2429,19 +3019,36 @@
             "taban": null,
             "tavan": null
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 5,
+            "yerlesen": 1,
+            "taban": 0.81699,
+            "tavan": 0.81699
+          }
         }
       }
     },
     "Harita Mühendisliği (%100 İngilizce)": {
       "fakulte": "İnşaat Fakültesi",
       "osym_taban_puanlari": {
-        "2022": null,
-        "2023": null,
+        "2022": 408.88418,
+        "2023": 424.19812,
         "2024": 400.56837,
-        "2025": 424.08021
+        "2025": 424.08021,
+        "2026": 449.9238
       },
       "yatay_gecis_istatistikleri": {
         "202610": {
+          "3.Yarıyıl": {
+            "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202710": {
           "3.Yarıyıl": {
             "kontenjan": 3,
             "yerlesen": 0,
@@ -2455,14 +3062,29 @@
       "fakulte": "Elektrik - Elektronik Fakültesi",
       "osym_taban_puanlari": {
         "2022": 382.65507,
-        "2023": null,
+        "2023": 452.39683,
         "2024": 433.43827,
-        "2025": 451.29222
+        "2025": 451.29222,
+        "2026": 475.48958
       },
       "yatay_gecis_istatistikleri": {
         "202610": {
           "3.Yarıyıl": {
             "kontenjan": 3,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
             "yerlesen": 0,
             "taban": null,
             "tavan": null
@@ -2476,7 +3098,8 @@
         "2022": 418.51153,
         "2023": 432.85539,
         "2024": 417.86283,
-        "2025": 438.78269
+        "2025": 438.78269,
+        "2026": 464.01645
       },
       "yatay_gecis_istatistikleri": {
         "202610": {
@@ -2486,22 +3109,122 @@
             "taban": 0.83893,
             "tavan": 0.89297
           }
+        },
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 7,
+            "yerlesen": 3,
+            "taban": 0.80525,
+            "tavan": 0.89948
+          }
+        }
+      }
+    },
+    "Veri Bilimi ve Analitiği (%100 İngilizce)": {
+      "fakulte": "İşletme Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": null,
+        "2023": null,
+        "2024": 504.33451,
+        "2025": 508.71628,
+        "2026": 515.23536
+      },
+      "yatay_gecis_istatistikleri": {
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.94483,
+            "tavan": 0.94483
+          }
+        }
+      }
+    },
+    "Siber Güvenlik Mühendisliği (%100 İngilizce)": {
+      "fakulte": "Bilgisayar ve Bilişim Fakültesi",
+      "osym_taban_puanlari": {
+        "2022": null,
+        "2023": null,
+        "2024": 515.79972,
+        "2025": 518.51238,
+        "2026": 523.18987
+      },
+      "yatay_gecis_istatistikleri": {
+        "202710": {
+          "3.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 1,
+            "taban": 0.92238,
+            "tavan": 0.92238
+          },
+          "5.Yarıyıl": {
+            "kontenjan": 1,
+            "yerlesen": 0,
+            "taban": null,
+            "tavan": null
+          }
         }
       }
     }
   },
   "meta": {
     "donemler": [
+      "202710",
       "202610",
       "202510",
       "202410"
     ],
     "yks_yillari": [
+      2026,
       2025,
       2024,
       2023,
       2022
     ],
-    "guncelleme_tarihi": "2026-01-28"
+    "veri_kaynaklari": {
+      "osym": {
+        "2022": {
+          "dosya": "data-sources/osym-datas/2022-osym-taban-puanlar.xlsx",
+          "yil": 2022,
+          "puan": "Genel kontenjan / En Küçük Puan"
+        },
+        "2023": {
+          "dosya": "data-sources/osym-datas/2023-osym-taban-puanlar.xlsx",
+          "yil": 2023,
+          "puan": "Genel kontenjan / En Küçük Puan"
+        },
+        "2024": {
+          "dosya": "data-sources/osym-datas/2024-osym-taban-puanlar.xlsx",
+          "yil": 2024,
+          "puan": "Genel kontenjan / En Küçük Puan"
+        },
+        "2025": {
+          "dosya": "data-sources/osym-datas/2025-osym-taban-puanlar.xlsx",
+          "yil": 2025,
+          "puan": "Genel kontenjan / En Küçük Puan"
+        },
+        "2026": {
+          "dosya": "data-sources/osym-datas/2026-en-kucuk-ve-en-buyuk-puanlar-tablo-4-rps0lq-18092428.xlsx",
+          "yil": 2026,
+          "puan": "Genel kontenjan / En Küçük Puan",
+          "url": "https://www.osym.gov.tr/2026-yks-yerlestirme-sonuclarina-iliskin-sayisal-bilgiler"
+        }
+      },
+      "yatay_gecis": {
+        "202710": {
+          "url": "https://www.sis.itu.edu.tr/TR/ogrenci/lisans/cap-yandal-yatay-gecis/202710/yatay-taban-tavan-202710.html",
+          "yil": "2026-2027",
+          "baslik": "2026-2027 Eğitim-Öğretim Yılı Asil Listesi Lisans İTÜ İçi Yatay Geçiş Taban Tavan Değerlendirme Puanları"
+        }
+      },
+      "cap": {
+        "202710": {
+          "url": "https://www.sis.itu.edu.tr/TR/ogrenci/lisans/cap-yandal-yatay-gecis/202710/cap-taban-tavan-202710.html",
+          "yil": "2026-2027",
+          "baslik": "2026-2027 Eğitim-Öğretim Yılı Asil Listesi Lisans ÇİFT ANADAL PROGRAMI (ÇAP) Taban Tavan Değerlendirme Puanları"
+        }
+      }
+    },
+    "guncelleme_tarihi": "2026-10-11"
   }
 }
