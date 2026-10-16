@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>İTÜ Atlas - Yatay Geçiş ve ÇAP Verileri</title>
-  <meta name="description" content="İTÜ’de yatay geçiş için gereken AGNO aralığını kendi YKS puanına göre gör. ÇAP programlarının geçmiş sonuçlarını tek yerde karşılaştır.">
-  <meta name="keywords" content="itüatlas, itü yatay geçiş, itü çap, itü yatay geçiş taban puanları, itü çap taban puanları, istanbul teknik üniversitesi, itü agno">
+  <title>İTÜ Atlas - Yatay Geçiş, ÇAP ve Yandal Verileri</title>
+  <meta name="description" content="İTÜ’de yatay geçiş için gereken AGNO aralığını kendi YKS puanına göre gör. ÇAP ve yandal programlarının geçmiş sonuçlarını karşılaştır.">
+  <meta name="keywords" content="itüatlas, itü yatay geçiş, itü çap, itü yandal, itü yatay geçiş taban puanları, itü çap taban puanları, itü yandal taban puanları, istanbul teknik üniversitesi, itü agno">
   <script src="shared/theme.js"></script>
   <link rel="stylesheet" href="shared/fonts.css">
   <link rel="stylesheet" href="shared/style.css">
@@ -15,14 +15,14 @@
   <div class="landing-container">
     <header class="site-bar">
       <a class="brand" href="./" aria-label="İTÜ Atlas ana sayfa">İTÜ Atlas</a>
-      <nav class="site-links" aria-label="Ana menü"><a href="yatay-gecis/">Yatay Geçiş</a><a href="cap/">Çift Anadal</a></nav>
+      <nav class="site-links" aria-label="Ana menü"><a href="yatay-gecis/">Yatay Geçiş</a><a href="cap/">Çift Anadal</a><a href="yandal/">Yandal</a></nav>
       <button type="button" class="theme-switch" data-theme-toggle role="switch" aria-checked="false" aria-label="Koyu temaya geç" title="Koyu temaya geç"><span aria-hidden="true"></span></button>
     </header>
     <main id="main" tabindex="-1">
       <section class="landing-hero" aria-labelledby="hero-title">
-        <p class="eyebrow">İTÜ YATAY GEÇİŞ &amp; ÇİFT ANADAL</p>
-        <h1 id="hero-title">Yatay geçiş ve ÇAP<br><span>taban-tavan puanlarını incele.</span></h1>
-        <p class="hero-description">İTÜ’de yatay geçiş için gereken AGNO aralığını kendi YKS puanına göre gör.<br class="desktop-break"> ÇAP programlarının geçmiş sonuçlarını tek yerde karşılaştır.</p>
+        <p class="eyebrow">İTÜ YATAY GEÇİŞ · ÇİFT ANADAL · YANDAL</p>
+        <h1 id="hero-title">Yatay geçiş, ÇAP ve yandal<br><span>geçmiş sonuçlarını incele.</span></h1>
+        <p class="hero-description">İTÜ’de yatay geçiş için gereken AGNO aralığını kendi YKS puanına göre gör.<br class="desktop-break"> ÇAP ve yandal programlarının taban-tavan değerlerini, kontenjanlarını karşılaştır.</p>
       </section>
       <section class="card-grid" aria-label="Planlama araçları">
         <a href="yatay-gecis/" class="landing-card">
@@ -41,10 +41,18 @@
           <p>Tüm yılların program taban ve tavan değerlerini, kontenjanlarını tek yerde alt alta karşılaştır.</p>
           <span class="card-action">ÇAP sonuçlarını incele</span>
         </a>
+        <a href="yandal/" class="landing-card">
+          <div class="card-heading">
+            <div><p class="card-category">SON 10 YIL BİR ARADA</p><h2>Yandal</h2></div>
+            <span class="card-open" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M6 18 18 6M6 6h12v12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          </div>
+          <p>Yandal programlarının son 10 yıldaki taban ve tavan AGNO değerlerini, kontenjanlarını ve yerleşen sayılarını karşılaştır.</p>
+          <span class="card-action">Yandal sonuçlarını incele</span>
+        </a>
       </section>
 
       <section class="scoring-section" aria-labelledby="scoring-title">
-        <div class="section-heading"><p class="eyebrow">PUANLARIN ARKASINDAKİ HESAP</p><h2 id="scoring-title">Değerlendirme puanları<br class="mobile-break"> nasıl hesaplanır?</h2><p>Yatay geçiş ve ÇAP için değerlendirme ölçütleri farklıdır.</p></div>
+        <div class="section-heading"><p class="eyebrow">PUANLARIN ARKASINDAKİ HESAP</p><h2 id="scoring-title">Değerlendirme puanları<br class="mobile-break"> nasıl hesaplanır?</h2><p>Yatay geçiş, ÇAP ve yandal sonuçlarını doğru yorumlamak için değerlendirme ölçütlerini incele.</p></div>
         <article class="scoring-block transfer-scoring" aria-labelledby="transfer-title">
           <div class="scoring-heading"><h3 id="transfer-title">Kurum içi yatay geçiş</h3><span class="scoring-tag">%40 YKS / ÖSYS + %60 AGNO</span></div>
           <p>Not ortalaman tek başına yeterli bir gösterge değil. İTÜ, YKS / ÖSYS puanının hedef programın taban puanına oranını ve AGNO’nu birlikte değerlendirir.</p>
@@ -63,6 +71,13 @@
           <p>Fizik ve Matematik dışındaki ÇAP programlarında temel sıralama ölçütü <strong>ağırlıklı genel not ortalaması (AGNO)</strong>dır. Bu programların taban ve tavan değerleri not ortalamasını gösterir.</p>
           <p class="tie-break-note">AGNO eşitse tamamlanan anadal kredisine, kredi de eşitse giriş yılındaki ÖSYM sıralamasına bakılır. Başvuru koşulları ayrıca değerlendirilir.</p>
           <div class="formula-sources"><a href="https://www.sis.itu.edu.tr/TR/mevzuat/yatay-cap-yandal-yonerge.php" target="_blank" rel="noopener noreferrer">İTÜ yönergesi · Madde 30/8-a ↗</a><a href="https://www.sis.itu.edu.tr/duyuru_ekler/cap_yandal_yatay202710/ituici_cap_yandal_yatay/TR/sonuclar/ycy-sonuclar-202710.php" target="_blank" rel="noopener noreferrer">Resmî sonuç duyurusu ↗</a></div>
+        </article>
+
+        <article class="scoring-block yandal-scoring" aria-labelledby="yandal-title">
+          <div class="scoring-heading"><h3 id="yandal-title">Yandal: geçmiş sonuçlar ve başvuru</h3><span class="scoring-tag">4 üzerinden AGNO</span></div>
+          <p>Yandal tablosundaki taban ve tavan değerler, ilgili yıl ve kontenjan grubunda yerleşen öğrencilerin en düşük ve en yüksek <strong>not ortalamalarını</strong> gösterir. Öğrenci gruplarına ayrılan kontenjanlar kendi açıklamalarıyla değerlendirilmelidir.</p>
+          <p class="tie-break-note"><strong>Güncel başvuru koşulları:</strong> Anadal AGNO’sunun en az 2,50 olması ve başvuruya kadar alınan tüm kredili derslerin başarılmış olması gerekir. Yarıyıl, kredi ve programa özgü diğer koşullar ayrıca sağlanmalıdır. Genel sıralamada önce AGNO, eşitlik halinde tamamlanan anadal kredisi, bunlar da eşitse giriş yılındaki ÖSYM sıralaması dikkate alınır.</p>
+          <div class="formula-sources"><a href="https://www.sis.itu.edu.tr/TR/mevzuat/yatay-cap-yandal-yonerge.php" target="_blank" rel="noopener noreferrer">Güncel İTÜ yönergesi · Madde 22 ve 30/8-a ↗</a><a href="yandal/">Son 10 yılın yandal sonuçları →</a></div>
         </article>
 
         <div class="exception-heading"><h3>Fizik ve Matematik ÇAP istisnası</h3><p>Bu iki programda ÖSYS puanı ve AGNO birlikte kullanılır. Tablodaki değerler 4 üzerinden AGNO değil, <strong>değerlendirme puanıdır.</strong></p></div>

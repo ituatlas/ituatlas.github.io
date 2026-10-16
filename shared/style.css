@@ -1278,7 +1278,7 @@ header h1 { font-family: var(--font-display); font-weight: 500; }
 .landing-hero h1 { margin: 17px 0 18px; font-family: var(--font-display); font-size: clamp(2.1rem, 3.55vw, 3.2rem); font-weight: 400; line-height: 1.24; letter-spacing: -1.3px; }
 .landing-hero h1 > span { color: var(--primary-hover); }
 .hero-description { max-width: 720px; margin: auto; font-size: .92rem; line-height: 1.85; color: var(--text-muted); }
-.card-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
+.card-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
 .landing-card { display: flex; flex-direction: column; min-width: 0; padding: 30px; background: var(--card-bg); color: var(--text); border: 1px solid var(--border); border-radius: 18px; text-decoration: none; cursor: pointer; transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease; }
 .landing-card:hover { border-color: color-mix(in srgb, var(--primary) 55%, var(--border)); box-shadow: var(--card-shadow); transform: translateY(-3px); }
 .landing-card:focus-visible { outline: 3px solid var(--primary); outline-offset: 4px; }
@@ -1334,6 +1334,28 @@ header h1 { font-family: var(--font-display); font-weight: 500; }
 .footer-links { display: flex; gap: 22px; }
 .footer-links a { text-decoration: none; font-size: .73rem; color: var(--text-muted); }
 .footer-links a:hover { color: var(--primary-hover); text-decoration: underline; }
+
+@media (min-width: 701px) and (max-width: 1000px) {
+  .landing-card { padding: 20px; }
+  .landing-card h2 { font-size: 1.3rem; }
+  .card-heading { gap: 8px; }
+  .card-open { width: 32px; height: 32px; }
+}
+
+/* Yandal shares the existing comparison table and mobile card layout. */
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+.yandal-intro { color: var(--text-muted); line-height: 1.8; margin-bottom: 22px; }
+.yandal-result-count { color: var(--text-muted); font-size: .85rem; margin: 0 0 18px; }
+.yandal-sources summary { cursor: pointer; color: var(--primary-hover); }
+.yandal-page .cell-aciklama { max-width: 26ch; white-space: normal; overflow-wrap: anywhere; text-align: left; font-size: .8rem; line-height: 1.6; color: var(--text-muted); }
+.yandal-sources { margin-top: 20px; font-size: .85rem; line-height: 1.8; }
+.yandal-sources ul { padding-left: 22px; margin-top: 10px; }
+.yandal-page .fakulte-baslik { font-family: var(--font-body); }
+@media (max-width: 900px) {
+  .yandal-page .programs-table .cell-aciklama { grid-column: 1 / -1; order: 5; max-width: none; min-width: 0; padding: 8px 0 4px; font-size: .8rem; }
+  .yandal-page .programs-table .cell-aciklama::before { content: "Açıklama: "; font-weight: 600; }
+  .yandal-page .programs-table .cell-aciklama.is-empty { display: none; }
+}
 
 @media (max-width: 700px) {
   .landing-container { padding: 0 20px; }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>İTÜ Yandal Taban ve Tavan Not Ortalamaları | İTÜ Atlas</title>
+  <meta name="description" content="İTÜ yandal programlarının 2017–2018 ile 2026–2027 arasındaki 10 yıllık taban-tavan AGNO, kontenjan ve yerleşen verilerini karşılaştır.">
+  <meta name="keywords" content="itüatlas, itü yandal, itü yandal sonuçları, yandal taban puanları, yandal not ortalamaları">
+  <script src="../shared/theme.js"></script>
+  <link rel="stylesheet" href="../shared/fonts.css">
+  <link rel="stylesheet" href="../shared/style.css?v=yandal-2">
+</head>
+<body class="cap-page yandal-page">
+  <a class="skip-link" href="#main">İçeriğe geç</a>
+  <div class="container">
+    <div class="detail-toolbar">
+      <a class="brand" href="../">İTÜ <strong>Atlas</strong></a>
+      <button type="button" class="theme-switch" data-theme-toggle role="switch" aria-checked="false" aria-label="Koyu temaya geç" title="Koyu temaya geç"><span aria-hidden="true"></span></button>
+    </div>
+    <header>
+      <a href="../" class="home-link" aria-label="Ana sayfaya dön">←</a>
+      <div class="header-content"><h1>İTÜ Yandal Programları Taban ve Tavan Not Ortalamaları</h1></div>
+      <nav class="header-nav" aria-label="İletişim"><a href="mailto:dikmenomerf@gmail.com">İletişim</a></nav>
+    </header>
+    <main id="main" tabindex="-1">
+      <p class="yandal-intro">Son 10 yılın yandal sonuçlarını karşılaştır. Taban ve tavan değerler 4 üzerinden AGNO’dur. Kontenjan grupları, varsa açıklamalarıyla ayrı gösterilir.</p>
+      <div class="input-section">
+        <div class="input-row">
+          <div class="input-group"><label for="yilSayisi">Gösterilecek Yıl Sayısı</label><select id="yilSayisi"><option value="3">Son 3 Yıl</option></select></div>
+          <div class="input-group"><label for="yariyilFilter">Yarıyıl</label><select id="yariyilFilter"><option value="all">Tümü</option><option value="3.Yarıyıl">3. Yarıyıl</option><option value="5.Yarıyıl">5. Yarıyıl</option></select></div>
+        </div>
+      </div>
+      <div class="search-box"><input type="search" id="searchInput" aria-label="Yandal programı ara" placeholder="Yandal programı ara..."></div>
+      <p id="resultCount" class="yandal-result-count" role="status" aria-live="polite"></p>
+      <div id="results-container" aria-busy="true"><div class="loading">Veriler yükleniyor...</div></div>
+      <aside class="landing-note"><p>“—” kaynakta bilgi bulunmadığını gösterir. Yerleşen sayısı 0 ise o satırda yerleşme olmamıştır. Geçmiş sonuçlar kesin kabul garantisi değildir; başvuru koşulları ayrıca değerlendirilir. <a href="../#yandal-title">Yandal başvuru ve değerlendirme bilgisi</a></p></aside>
+      <details class="yandal-sources"><summary>Yıllara göre resmî veri kaynakları</summary><ul id="sourceList"></ul></details>
+    </main>
+    <footer>
+      <p>Veriler İTÜ Öğrenci İşleri kaynaklarından derlenmiştir. <a href="https://www.sis.itu.edu.tr/TR/ogrenci/lisans/cap-yandal-yatay-gecis/cap-yandal-yatay-gecis.php" target="_blank" rel="noopener noreferrer">Resmî arşiv ↗</a></p>
+      <p>Son güncelleme: <span id="footerDate">—</span></p>
+    </footer>
+  </div>
+  <script src="script.js?v=yandal-2"></script>
+</body>
+</html>
